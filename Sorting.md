@@ -351,34 +351,24 @@ Untuk numerik
 Field names	
 You must specify a field name to search in, and it must be the physical field name in the table layout, not the display name in the table view.
 
-Tip
+**Notes:** <br>
+Untuk melihat nama fisik dari sebuah kolom, klik kanan pada header kolom, kemudian pilih **Properties**.
 
-To see the physical field name, right-click a column header in the table view and select Properties.
-
-Search in more than one field	You can build an expression that searches in more than one field. The easiest way to search across all fields in a record is to search using a function. For more information, see Search and filter using Analytics functions.
+Untuk melakukan pencarian pada lebih dari satu kolom, bisa dilakukan dengan membuat perintah yang melakukan pencarian pada lebuh dari satu kolom. Namun, carra lain untuk melakukannya adalah dengan menggunakan fungsi (Analytics functions).
 Partial matching	Partial matching of search terms is not supported.
-For information about using partial matching, see Search and filter using Analytics functions.
 
-Quotation marks	Text search terms must be enclosed in "quotation marks".
-Back quotes	Datetime search terms must be enclosed in `back quotes`.
-Datetime format	
-Datetime search terms must use YYYYMMDD or YYMMDD format.
-Any time portion must use hhmmss format, and be preceded a single blank space, the letter ‘t’, or the letter ‘T’. For example: `t183000`
-Do not use any separators such as slashes (/) or colons (:) between the individual components of dates or times.
-Operators	For the list of valid operators, see Operators in Analytics expressions.
+Peraturan : <br>
+1. Untuk mencari teks, gunakan petik buka dan petik tutup. Contoh: "Makanan" 
+2. Untuk mencari tanggal, gunakan back quotes. Contoh: '19990530'	Pencarian tanggal harus dalam format YYYYMMDD atau YYMMDD.
+3. Untuk mencari waktu, gunakan format hhmmss dan dimulai dengan satu spasi kosong dan satu huruf ‘t’ atau ‘T’. Misalkan: `t183000`
+4. Jangan gunakan slashes (/) or colons (:) between the individual components of dates or times.
+
 Related fields	To search in a related field you must specify the fully qualified field name: table name.field name.
-Quick search and quick filter
-Quick search and quick filter are two Analytics features that make searching easier by building the search expression for you in the Filter text box.
 
+## Quick search and quick filter
+Quick search and quick filter are two Analytics features that make searching easier by building the search expression for you in the Filter text box.
 Quick search you enter a text term in the Filter text box
 Quick filter you use the mouse to select search criteria
-For more information, see:
-
-Quick searching data in a table
-Quick filtering data in a view
-Global filters (view filters)
-Note
-
 Some limitations exist with quick search and quick filter, which are explained in the topics about these features.
 
 Search using Analytics functions
@@ -395,22 +385,10 @@ You can use an Analytics command, accessed from the main menu, to select the fir
 
 One of the commands allows you to go directly to a specific record number, which can be helpful in the Analytics user interface when navigating large tables.
 
-For more information, see Selecting the first matching record.
-
-
-
-
-
-
-
-
+For more information, see Selecting the first matching record
 Automatic conversion of search term to a filter
 The search term or terms you enter are automatically converted to a global filter that uses the FIND( ) function.
-
 For example, entering casino results in the filter FIND("casino").
-
-
-
 The filter auto-populates the Filter text box, from where you can modify it, if required. For example, you could modify FIND("casino") to limit the search to a specific field: FIND("casino", Merchant).
 
 The filter is also added to the filter history and to the command log, from where you can subsequently reapply it.
@@ -443,6 +421,7 @@ The search is restricted to the field that you specified.
 Note
 
 You must use the physical name of the field, which may not be the same as the display name of the field in the view.
+Untuk melakukan 
 
 To check the physical name, right-click the appropriate column header and select Properties. If necessary, copy the physical name from the text box at the top of the Modify Column dialog box. Do not use the Alternate Column Title.
 
@@ -462,21 +441,13 @@ Search terms
 Return records that contain:
 
 cas
-
 casino
-
 cash
-
 Americas
-
 Lancashire
-
 etcetera . . .
-
 casino
-
 casino
-
 casinos
 
 casino liquor
