@@ -334,28 +334,20 @@ Apabila pencarian cukup kompleks, jangan gunakan searching, tapi gunakan metode 
 ### Search for blank, empty, or invalid values
 You can search for blank text or numeric values, or blank or invalid datetime values. You can search for non-blank values by changing the operator you use in the expression.
 
-Blank or non-blank text values
-Isolates all records in which the Vendor_Name field is blank:
-Vendor_Name = " "
-ISBLANK(Vendor_Name)
-Isolates all records in which the Vendor_Name field is not blank:
-Vendor_Name <> " "
-NOT(ISBLANK(Vendor_Name))
-Blank or non-blank numeric values
-Isolates all records in which the Invoice_Amount field is blank, or zero (0):
-Invoice_Amount = 0
-Isolates all records in which the Invoice_Amount field is not blank, and not zero (0):
-Invoice_Amount <> 0
-Blank or non-blank datetime values
-Isolates all records in which the Invoice_Date field is blank, or the value is invalid:
-Invoice_Date = `19000101`
-NOT VERIFY(Invoice_Date)
-A date value can be invalid if it does not match the date format used by the field, or if the date does not exist. For example: 31 April 2020.
+Untuk teks:
+1. Mengambil seluruh baris dimana **Vendor_Name** kosong: ISBLANK(Vendor_Name)
+2. Mengambil seluruh baris dimana **Vendor_Name** tidak kosong: NOT(ISBLANK(Vendor_Name))
 
-Isolates all records in which the Invoice_Date field is not blank, and the value is valid:
-Invoice_Date <> `19000101`
-VERIFY(Invoice_Date)
-Guidelines for basic searches
+Untuk numerik
+1. Mengambil seluruh baris dimana **Invoice_Amount** kosong: Invoice_Amount=0
+2. Mengambil seluruh baris dimana **Invoice_Amount** tidak kosong: Invoice_Amount<>0
+
+Untuk tanggal/waktu:
+Untuk numerik
+1. Mengambil seluruh baris dimana **Invoice_Date** kosong: NOT VERIFY(Invoice_Date)
+2. Mengambil seluruh baris dimana **Invoice_Date** tidak kosong: Invoice_Date<>0; Invoice_Date <> `19000101 VERIFY(Invoice_Date)
+
+## Guidelines for basic searches
 Field names	
 You must specify a field name to search in, and it must be the physical field name in the table layout, not the display name in the table view.
 
