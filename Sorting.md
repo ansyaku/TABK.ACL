@@ -783,43 +783,28 @@ Tip
 
 You can copy and paste any of the examples below directly into the Filter text box, and modify the search terms and other inputs to match your data.
 
-Text searches (character data type)
-Search for a single text term
-Use: FIND( ) function
+# Text searches (character data type)
 
-Description: The search function with the fewest restrictions. Not case-sensitive. Allows searching entire records in addition to searching an individual field or fields.
+## Mencari suatu kata/frase/kalimat
 
-Example
+**Use: FIND( ) function**<br>
+Description:<br>
+Fungsi SEARCH tidak case-sensitive. Bisa digunakan untuk seluruh baris atau suatu kolom tertentu saja.
+Contoh:<br>
+1. FIND("United Equipment")
+2. FIND("Equip")
+3. FIND("United Equipment", Vendor_Name)
+4. FIND("United Equipment", Vendor.Vendor_Name)
 
-Result
-
-FIND("United Equipment")
-Isolates all records that contain the name “United Equipment” anywhere in the record.
-
-FIND("Equip")
-Isolates all records that contain the string “Equip” anywhere in the record.
-
-FIND("United Equipment", Vendor_Name)
-Isolates all records that contain the name “United Equipment” in the Vendor_Name field.
-
-FIND("United Equipment", Vendor.Vendor_Name)
-Isolates all records that contain the name “United Equipment” in the Vendor_Name field in the related Vendor table.
-
-Search for blank text values
-Use: ISBLANK( ) function
-
+## Mencari nilai yang kosong
+**Use: ISBLANK( ) function**<br>
 Description: Allows you to search for blank values in a character field.
+Contoh:
+1. ISBLANK(First_Name)
 
-Example
 
-Result
-
-ISBLANK(First_Name)
-Isolates all records with a blank First_Name field.
-
-Search for multiple text terms
-Use: FINDMULTI( ) function
-
+## Search for multiple text terms
+**Use: FINDMULTI( ) function**
 Description: The same as FIND( ), but allows specifying multiple search terms.
 
 Contoh:
@@ -828,7 +813,7 @@ Contoh:
 3. FINDMULTI(Vendor_Name, "United Equipment", "Muller Corp.")
 4. FINDMULTI(Vendor.Vendor_Name, "United Equipment", "Muller Corp.")
 
-Use: MATCH( ) function
+**Use: MATCH( ) function**
 Description: A versatile search function that allows you to search a field for multiple search terms simultaneously, or search multiple fields for the same search term. Also allows you to find matching values in two fields.
 Contoh: 
 1. MATCH(Vendor_City, "Phoenix", "Austin", "Los Angeles")
