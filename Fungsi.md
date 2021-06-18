@@ -7,6 +7,10 @@ Kapan fungsi verify menghasilkan nilai TRUE ?
 * __numeric fields__ hanya mengandung karakter numerik, seperti angka, desimal, dan simbol mata uang.
 * __datetime fields__ hanya mengandung tanggal (date), tanggal dan waktu, atau waktu yang valid .
 
+**NOTES:**<br>
+Untuk computed fields dan expressions :<br>
+Computed fields dan expressions apabila di*verify* apabila dievaluasi selalu menghasilkan *T (true)*, jadi apabila ada computed fields dan expressions harus dikonversi menjadi kolom fisik.
+
 ## Fungsi Search
 Auditor juga dapat melakukan verifikasi manual atas data dengan melakukan pencarian data sesuai kriteria verifikasi yang diinginkan.
 Auditor dapat melakukan perintah SEARCH melalui Menu Bar : Data > Search
