@@ -822,46 +822,22 @@ Use: FINDMULTI( ) function
 
 Description: The same as FIND( ), but allows specifying multiple search terms.
 
-Example
-
-Result
-
-FINDMULTI(RECORD, "United Equipment", "Muller Corp.")
-Isolates all records that contain the name “United Equipment” or "Muller Corp." anywhere in the record.
-
-FINDMULTI(RECORD, "equip", "supp")
-Isolates all records that contain the strings “equip” or "supp" anywhere in the record.
-
-FINDMULTI(Vendor_Name, "United Equipment", "Muller Corp.")
-Isolates all records that contain the name “United Equipment” or "Muller Corp." in the Vendor_Name field.
-
-FINDMULTI(Vendor.Vendor_Name, "United Equipment", "Muller Corp.")
-Isolates all records that contain the name “United Equipment” or "Muller Corp." in the Vendor_Name field in the related Vendor table.
+Contoh:
+1. FINDMULTI(RECORD, "United Equipment", "Muller Corp.")
+2. FINDMULTI(RECORD, "equip", "supp")
+3. FINDMULTI(Vendor_Name, "United Equipment", "Muller Corp.")
+4. FINDMULTI(Vendor.Vendor_Name, "United Equipment", "Muller Corp.")
 
 Use: MATCH( ) function
-
 Description: A versatile search function that allows you to search a field for multiple search terms simultaneously, or search multiple fields for the same search term. Also allows you to find matching values in two fields.
-
-Example
-
-Result
-
-MATCH(Vendor_City, "Phoenix", "Austin", "Los Angeles")
-Isolates all records in which the value in the Vendor_City field exactly matches, or begins with, “Phoenix”, “Austin”, or “Los Angeles”.
-
-NOT MATCH(Vendor_City, "Phoenix", "Austin", "Los Angeles")
-Isolates all records in which the value in the Vendor_City field does not exactly match, or begin with, “Phoenix”, “Austin”, or “Los Angeles”.
-
-MATCH(Product_Code, "A", "D", "F")
-Isolates all records that have product codes “A”, “D”, or “F”, or product codes beginning with “A”, “D”, or “F”, in the Product_Code field.
-
-MATCH(Product_Code, "A", "D", "F")
-Isolates all records that have one-character product codes “A”, “D”, or “F” in the Product_Code field.
-
+Contoh: 
+1. MATCH(Vendor_City, "Phoenix", "Austin", "Los Angeles")
+2. NOT MATCH(Vendor_City, "Phoenix", "Austin", "Los Angeles")
+3. MATCH(Product_Code, "A", "D", "F")
+4. MATCH(Product_Code, "A", "D", "F")
 The Exact Character Comparisons option must be on.
 
 Note
-
 MATCH( ) examples assume that the Exact Character Comparisons option is off, except where noted.
 
 Search for case-sensitive text terms
@@ -869,16 +845,10 @@ Use: MATCH( ) function
 
 Description: A versatile search function that allows you to search a field for multiple search terms simultaneously, or search multiple fields for the same search term. Also allows you to find matching values in two fields.
 
-Example
-
-Result
-
-MATCH(Last_Name, "SMITH")
-Isolates all records in which the value in the Last_Name field is "SMITH", all uppercase.
-MATCH(Last_Name, "smith")
-Isolates all records in which the value in the Last_Name field is "smith", all lowercase.
-MATCH(Last_Name, "Smith")
-Isolates all records in which the value in the Last_Name field is "Smith", proper case.
+Contoh:
+1. MATCH(Last_Name, "SMITH")
+2. MATCH(Last_Name, "smith")
+3. MATCH(Last_Name, "Smith")
 Search for a text term in multiple fields
 Use: MATCH( ) function
 
@@ -907,23 +877,11 @@ You may need to use additional functions to standardize the format of vendor and
 
 Search for one or more occurrences of a specific character or substring
 Use: OCCURS( ) function
-
 Description: Allows you to search for one or multiple occurrences of a substring in a character field.
 
-Example
-
-Result
-
 OCCURS(Invoice_Number, "-") > 1
-Isolates all records in which the invoice number contains 2 or more hyphens.
-
-OCCURS(Full_Name, ALLTRIM(Last_Name))=1
-Isolates all records in which the value in the Last_Name field appears in the Full_Name field.
-
-Including the ALLTRIM( ) function in the expression removes any leading or trailing spaces from the Last_Name field, ensuring that only text values are compared.
-
-OCCURS(Vendor_Name, "UNITED EQUIPMENT")
-> 0
+OCCURS(Full_Name, ALLTRIM(Last_Name))=1 Isolates all records in which the value in the Last_Name field appears in the Full_Name field. Including the ALLTRIM( ) function in the expression removes any leading or trailing spaces from the Last_Name field, ensuring that only text values are compared.
+OCCURS(Vendor_Name, "UNITED EQUIPMENT")> 0
 Isolates all records that contain the name “UNITED EQUIPMENT”, in uppercase, in the Vendor_Name field.
 
 Unlike the FIND( ) function, the OCCURS( ) function is case sensitive.
@@ -1252,25 +1210,14 @@ Multiple search terms supported	Function
 Yes
 
 FINDMULTI( )
-
 MATCH( )
-
 REGEXFIND( )
-
-No
-
 AT( )
-
 BETWEEN( )
-
 FIND( )
-
 ISFUZZYDUP( )
-
 LEVDIST( )
-
 MAP( )
-
 OCCURS( )
 
 Affected by Exact Character Comparisons option (SET EXACT ON/OFF)
