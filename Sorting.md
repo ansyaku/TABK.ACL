@@ -914,15 +914,11 @@ Contoh:
 3. REGEXFIND(Product_Code, "\b\d{3,}-[a-zA-Z]{6}")
 
 ## Numeric searches
-Search for a number
+### Search for a number
 Use: MATCH( ) function
-
 Description: A versatile search function that allows you to search a field for multiple search terms simultaneously, or search multiple fields for the same search term. Also allows you to find matching values in two fields.
-
 Example
-
 Result
-
 MATCH(Invoice_Amount,154.00)
 Isolates all records with an invoice amount of $154.00.
 MATCH(Invoice_Amount,154.00, 522.00)
@@ -930,42 +926,31 @@ Isolates all records with an invoice amount of $154.00 or $522.00.
 NOT MATCH(Inventory_Value_at_Cost, Cost_x_Quantity)
 Isolates all records with different amounts in the Inventory_Value_at_Cost field and the computed Cost_x_Quantity field.
 
-Search for numbers in a range
+
+### Search for numbers in a range
 Use: BETWEEN( ) function
-
 Description: Allows you to search for numeric values that fall within a range.
-
 Example
-
 Result
-
 BETWEEN(Invoice_Amount, 1000, 5000)
 Isolates all records with an invoice amount from $1000 to $5000, inclusive.
 
-Search for a number throughout an entire table
+
+### Search for a number throughout an entire table
 Use: FIND( ) function
-
 Description: Allows searching entire records in addition to searching an individual field or fields.
-
 Use: FINDMULTI( ) function
-
 Description: The same as FIND( ), but allows specifying multiple search terms.
-
 Note
-
 Using the FIND( ) or FINDMULTI( ) functions to search for a numeric value can be tricky. The functions search the exact characters in the source data file (.fil), which can be presented differently in the table view.
-
 If search results seem inconsistent to you, examine the source data in the Table Layout dialog box.
-
 Example
-
 Result
-
 FIND("154.00")
 Isolates all records that contain the exact characters 154.00 anywhere in the record in the source data file.
-
 Datetime searches
-Search for a datetime value
+
+### Search for a datetime value
 Use: MATCH( ) function
 
 Description: A versatile search function that allows you to search a field for multiple search terms simultaneously, or search multiple fields for the same search term. Also allows you to find matching values in two fields.
@@ -980,7 +965,8 @@ Isolates all records with an invoice date of 31 Jul 2017.
 MATCH(Invoice_Date, `20170731`, `20170831`, `20170930`)
 Isolates all records with an invoice dated the last day of the month in each month of the third quarter.
 
-Search for blank or invalid date values
+
+### Search for blank or invalid date values
 Use: VERIFY( ) function
 
 Description: Allows you to search for blank or invalid values in a date field.
@@ -992,7 +978,8 @@ Result
 NOT VERIFY(Invoice_Date)
 Isolates all records with a blank or invalid date in the Invoice_Date field.
 
-Search for datetime values in a range
+
+### Search for datetime values in a range
 Use: BETWEEN( ) function
 
 Description: Allows you to search for datetime values that fall within a range.
@@ -1030,139 +1017,3 @@ FINDMULTI(RECORD, "31/07/2017", "31/08/2017")
 Isolates all records that contain the exact characters 31/07/2017 or 31/08/2017 anywhere in the record in the source data file.
 
 The normal restriction regarding datetime format (YYYYMMDD, YYMMDD, hhmmss, hhmm) does not apply when using FIND( ) or FINDMULTI( ) to search for a datetime value.
-
-A comparison of Analytics search functions
-The tables below provide a high-level comparison of Analytics search functions. As you construct search expressions in Analytics it can be useful to know how the specific rules that govern each function may differ.
-
-Data types when searching
-ClosedShow me more
-Search locations (field, fields, record)
-OpenShow me more
-Supported search locations	Function
-Single field
-
-BETWEEN( )
-
-ISFUZZYDUP( )
-
-LEVDIST( )
-
-One or more fields
-
-AT( )
-
-MAP( )
-
-MATCH( )
-
-OCCURS( )
-
-REGEXFIND( )
-
-One or more fields
-
-Record
-
-FIND( )
-
-FINDMULTI( )
-
-Leading spaces searchable
-OpenShow me more
-Leading spaces searchable	Function
-Yes
-
-Leading spaces in data can optionally be matched in search string
-
-AT( )
-
-BETWEEN( )
-
-FIND( )
-
-FINDMULTI( )
-
-OCCURS( )
-
-Yes
-
-Leading spaces in data must be exactly matched in search string
-
-MAP( )
-
-MATCH( )
-
-Yes
-
-Spaces in data or search string treated like a character
-
-ISFUZZYDUP( )
-
-LEVDIST( )
-
-REGEXFIND( )
-
-Case-sensitivity
-ClosedShow me more
-Partial matching
-OpenShow me more
-Partial matching supported	Function
-Yes
-
-Search string can appear anywhere in the field
-
-AT( )
-
-FIND( )
-
-FINDMULTI( )
-
-OCCURS( )
-
-REGEXFIND( )
-
-Yes
-
-Search string must appear at the start of the field, character data type only
-
-BETWEEN( )
-
-MATCH( )
-
-Yes
-
-Search string must be same length as data value, or shorter
-
-MAP( )
-
-Yes
-
-ISFUZZYDUP( )
-
-LEVDIST( )
-
-Multiple search terms
-OpenShow me more
-Multiple search terms supported	Function
-Yes
-
-FINDMULTI( )
-MATCH( )
-REGEXFIND( )
-AT( )
-BETWEEN( )
-FIND( )
-ISFUZZYDUP( )
-LEVDIST( )
-MAP( )
-OCCURS( )
-
-Affected by Exact Character Comparisons option (SET EXACT ON/OFF)
-ClosedShow me more
-On this page
-Guidelines for searching or filtering using functions
-Types of searches
-Text searches (character data type)
-Numeric searches
-Datetime searches
-A comparison of Analytics search functions
