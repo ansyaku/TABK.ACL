@@ -821,46 +821,35 @@ Contoh:
 3. MATCH(Product_Code, "A", "D", "F")
 4. MATCH(Product_Code, "A", "D", "F")
 The Exact Character Comparisons option must be on.
-
 Note
 MATCH( ) examples assume that the Exact Character Comparisons option is off, except where noted.
 
-Search for case-sensitive text terms
+**Search for case-sensitive text terms**
 Use: MATCH( ) function
-
 Description: A versatile search function that allows you to search a field for multiple search terms simultaneously, or search multiple fields for the same search term. Also allows you to find matching values in two fields.
 
 Contoh:
 1. MATCH(Last_Name, "SMITH")
 2. MATCH(Last_Name, "smith")
 3. MATCH(Last_Name, "Smith")
-Search for a text term in multiple fields
+
+**Search for a text term in multiple fields**
 Use: MATCH( ) function
-
 Description: A versatile search function that allows you to search a field for multiple search terms simultaneously, or search multiple fields for the same search term. Also allows you to find matching values in two fields.
-
-Example
-
-Result
-
-MATCH("Phoenix", Vendor_City, City, City_2)
+Contoh :
+1. MATCH("Phoenix", Vendor_City, City, City_2)
 Isolates all records in which at least one of the values in the Vendor_City, City, or City_2 fields exactly matches, or begins with, “Phoenix”.
 
-Search for matching text terms
+**Search for matching text terms**
 Use: MATCH( ) function
-
 Description: A versatile search function that allows you to search a field for multiple search terms simultaneously, or search multiple fields for the same search term. Also allows you to find matching values in two fields.
-
-Example
-
-Result
-
-MATCH(Vendor_Address, Employee_Address)
+Example:
+1. MATCH(Vendor_Address, Employee_Address)
 Isolates all records with identical vendor and employee addresses.
 
 You may need to use additional functions to standardize the format of vendor and employee addresses.
 
-Search for one or more occurrences of a specific character or substring
+**Search for one or more occurrences of a specific character or substring**
 Use: OCCURS( ) function
 Description: Allows you to search for one or multiple occurrences of a substring in a character field.
 
@@ -871,7 +860,7 @@ Isolates all records that contain the name “UNITED EQUIPMENT”, in uppercase,
 
 Unlike the FIND( ) function, the OCCURS( ) function is case sensitive.
 
-Search for a substring starting at a specific character position
+### Search for a substring starting at a specific character position
 Use: AT( ) function
 
 Description: Allows you to search for a substring, or a subsequent occurrence of the substring, in a character field, and specify the starting byte position of the target substring.
@@ -883,85 +872,48 @@ Result
 AT(2, "-", Invoice_Number) > 10
 Isolates all records in which the invoice number contains 2 or more hyphens, and the second hyphen occurs after the tenth character in the string.
 
-Search for text in a range
+### Search for text in a range
 Use: BETWEEN( ) function
-
 Description: Allows you to search for text values that fall within a range.
-
 Example
-
 Result
-
 BETWEEN(Last_Name, "C", "K")
 Isolates all records in which the value in the Last_Name field begins with one of the letters from “C” to “K”, inclusive.
-
 The Exact Character Comparisons option must be off.
 
-Search for nearly identical text values (fuzzy duplicates)
+### Search for nearly identical text values (fuzzy duplicates)
 Use: ISFUZZYDUP( ) function
-
 Description: Allows you to search for nearly identical values (fuzzy duplicates), as well as identical values. Not case-sensitive.
-
 Use: LEVDIST( ) function
-
 Description: Similar to ISFUZZYDUP( ), but case-sensitive by default.
-
 Example
-
 Result
-
 ISFUZZYDUP(Last_Name, "Braun", 2)
 Isolates all records with the name “Braun”, or fuzzy duplicates of the name “Braun”, in the Last_Name field.
-
 The Levenshtein distance (degree of fuzziness), set to 2 in this example, can be increased or decreased.
-
 LEVDIST(TRIM(Last_Name), "Braun") < 3
 Isolates all records with the name “Braun”, or fuzzy duplicates of the name “Braun”, in the Last_Name field.
-
 The Levenshtein distance (degree of fuzziness), set to < 3 in this example, can be increased or decreased.
-
 Including the TRIM( ) function in the expression removes any trailing spaces from the last name field, ensuring that only text values are compared.
 
-Search for a basic pattern
+### Search for a basic pattern
 Use: MAP( ) function
-
 Description: Allows you to search using wildcard characters, literal characters, or a mix of both.
+Contoh: 
+1. MAP(Invoice_Number, "XX99999")
+2. MAP(Invoice_Number, "AB12345")
+3. MAP(Invoice_Number, "AB99999")
+4. NOT MAP(SSN, "999-99-9999")
 
-Example
-
-Result
-
-MAP(Invoice_Number, "XX99999")
-Isolates all records with invoice numbers that consist of, or that start with, two letters followed by five numbers.
-
-MAP(Invoice_Number, "AB12345")
-Isolates all records with invoice numbers that are exactly “AB12345”, or that start with “AB12345”.
-
-MAP(Invoice_Number, "AB99999")
-Isolates all records with invoice numbers that consist of, or that start with, “AB” followed by five numbers.
-
-NOT MAP(SSN, "999-99-9999")
-Isolates all records that do not match the standard format of social security numbers in the SSN field.
-
-Search for a more complicated pattern
+### Search for a more complicated pattern
 Use: REGEXFIND( ) function
-
 Description: The most powerful and flexible search function. Allows you to search using regular expressions that combine literal characters and metacharacters. Can be more complicated to use than other search functions.
+Contoh:
+1. REGEXFIND(Vendor_City, "Phoenix|Austin|Los Angeles")
+2. REGEXFIND(Product_Code, "\b\d{3}-[a-zA-Z]{6}\b")
+3. REGEXFIND(Product_Code, "\b\d{3,}-[a-zA-Z]{6}")
 
-Example
-
-Result
-
-REGEXFIND(Vendor_City, "Phoenix|Austin|Los Angeles")
-Isolates all records in which the value in the Vendor_City field contains “Phoenix”, “Austin”, or “Los Angeles”.
-
-REGEXFIND(Product_Code, "\b\d{3}-[a-zA-Z]{6}\b")
-Isolates all records with a product code that starts with 3 numbers, followed by a hyphen and 6 letters.
-
-REGEXFIND(Product_Code, "\b\d{3,}-[a-zA-Z]{6}")
-Isolates all records with a product code that starts with 3 or more numbers, followed by a hyphen and 6 or more letters.
-
-Numeric searches
+## Numeric searches
 Search for a number
 Use: MATCH( ) function
 
