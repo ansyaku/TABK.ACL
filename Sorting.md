@@ -306,16 +306,12 @@ Searching character data is the most straightforward use of quick search. You ca
 
 Searching data
 You can use different methods for searching data in Analytics tables:
+|Hasil yang Ingin Ditampilkan |Metode|
+|-----|--------|
+|Ambil seluruh baris yang memenuhi |Filter textbox       |
+|Ambil baris pertama yang memenuhi |Kotak Search     |
 
-Desired result	Location to enter search expression	Method
-Isolate all matching records	Filter text box	
-Basic search Do a basic search using operators such as Equals = , Less Than < , or Greater Than >
-Quick search Do a quick search using the quick search or quick filter features
-Functions Search using Analytics functions
-Select the first matching record	Search dialog box	
-Commands Search using Analytics commands
 Tip
-
 Typically, users search to isolate all matching records, which returns a set of results. So normally you use the Filter text box and you can ignore the Search dialog box.
 
 Searching to isolate all matching records
