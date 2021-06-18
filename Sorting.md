@@ -320,18 +320,18 @@ To perform a basic search, enter an expression in the Filter text box at the top
 
 The example below isolates all records that contain the name “United Equipment” in the Vendor_Name field:
 
+Pencarian sederhana
 ![Contoh1](https://github.com/ansyaku/tabk.acl/blob/main/img/Search1.PNG)
 
-Other basic searches using operators
-Isolates invoices of $5,000.00 or more:
-Invoice_Amount >= 5000
-Isolates invoices in the third quarter of 2017:
-(Invoice_Date >= `20170701`) AND (Invoice_Date <= `20170930`)
-Tip
+Mencari dengan menggunakan relasi AND
+![Contoh1](https://github.com/ansyaku/tabk.acl/blob/main/img/Search2.PNG)
 
-Build search expressions from scratch only if the expressions are simple. For more involved searching, use the quick filter method, or advanced searching using functions.
+Mencari dengan logika bolean ">="
+![Contoh1](https://github.com/ansyaku/tabk.acl/blob/main/img/Search3.PNG)
 
-Search for blank, empty, or invalid values
+Apabila pencarian cukup kompleks, jangan gunakan searching, tapi gunakan metode quick filter atau advance searching dengan menggunakan fungsi. 
+
+### Search for blank, empty, or invalid values
 You can search for blank text or numeric values, or blank or invalid datetime values. You can search for non-blank values by changing the operator you use in the expression.
 
 Blank or non-blank text values
