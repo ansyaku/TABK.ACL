@@ -27,77 +27,14 @@ Contoh :
 * yang namanya si anu dan tanggal lahirnya 21/05/1999 dan npwpnya 01.061.173.9-051.000
 You can apply only one filter at a time to a view, but as the example above shows, you can use Boolean operators such as AND and OR to combine multiple criteria in a single filter. For more information about Boolean operators, see Operators in Analytics expressions.
 
-Filter expressions specify the requirements for inclusion
-When you create a filter expression such as Vendor_No = "14438" you are specifying the requirements or criteria for records to be included in the filtered table.
 
-From the standpoint of Boolean logic, records for which the filter expression evaluates to True are included in the filtered table. Records that evaluate to False are excluded.
-
-So in this example:
-
-all records with vendor number 14438 evaluate to True, and are included
-all records with vendor number 90215 evaluate to False, and are excluded
-Tip
-
-To help visualize which records are included by a filter, imagine prefacing the filter expression with the phrase "Include records if". This technique can be helpful when constructing complex expressions, or when using Boolean operators that negate, such as NOT, and Not Equal To (<>).
-
-Examples of filter expressions
-The examples below provide four variations of filtering using the same group of filter values and the same set of data.
-
-Include records if:
-
-all values are matched
-any values are matched
-all values are not matched
-any values are not matched
 Include records if ALL values are matched
-The filter expression below includes records in the filtered table if they belong to vendor 14438, and they are dated 15 July 2014, and the invoice amount is $1,000.
-
-In other words, all three criteria must be met for a record to be included in the filtered table.
-
-(Vendor_No = "14438") AND (Invoice_Date = `20140715`) AND (Invoice_Amount = 1000.00)
-Included?	Vendor Number	Invoice Date	Invoice Amount
-YES	14438	15 Jul 2014	$1000
-no	90215	15 Jul 2014	$1000
-no	14438	25 May 2015	$1000
-no	14438	15 Jul 2014	$500
-no	90215	25 May 2015	$500
 Include records if ANY values are matched
-The filter expression below includes records in the filtered table if they belong to vendor 14438, or if they are dated 15 July 2014, or if the invoice amount is $1,000.
-
-In other words, if any one of the three criteria is met a record is included in the filtered table.
-
-(Vendor_No = "14438") OR (Invoice_Date = `20140715`) OR (Invoice_Amount = 1000.00)
-Included?	Vendor Number	Invoice Date	Invoice Amount
-YES	14438	15 Jul 2014	$1000
-YES	90215	15 Jul 2014	$1000
-YES	14438	25 May 2015	$1000
-YES	14438	15 Jul 2014	$500
-no	90215	25 May 2015	$500
 Include records if ALL values are NOT matched
-The filter expression below includes records in the filtered table if they do not belong to vendor 14438, and they are not dated 15 July 2014, and the invoice amount is not $1,000.
-
-In other words, all three criteria must be met for a record to be included in the filtered table.
-
-(Vendor_No <> "14438") AND (Invoice_Date <> `20140715`) AND (Invoice_Amount <> 1000.00)
-Included?	Vendor Number	Invoice Date	Invoice Amount
-no	14438	15 Jul 2014	$1000
-no	90215	15 Jul 2014	$1000
-no	14438	25 May 2015	$1000
-no	14438	15 Jul 2014	$500
-YES	90215	25 May 2015	$500
 Include records if ANY values are NOT matched
-The filter expression below includes records in the filtered table if they do not belong to vendor 14438, or if they are not dated 15 July 2014, or if the invoice amount is not $1,000.
 
-In other words, if any one of the three criteria is met a record is included in the filtered table.
 
-(Vendor_No <> "14438") OR (Invoice_Date <> `20140715`) OR (Invoice_Amount <> 1000.00)
-Included?	Vendor Number	Invoice Date	Invoice Amount
-no	14438	15 Jul 2014	$1000
-YES	90215	15 Jul 2014	$1000
-YES	14438	25 May 2015	$1000
-YES	14438	15 Jul 2014	$500
-YES	90215	25 May 2015	$500
-Partial matching
+## Partial matching
 Partial matching is supported when filtering character data – that is, the filter value can be contained by a longer value in the field you are using for filtering.
 
 For example:
@@ -110,7 +47,7 @@ Filter values must appear at the start of fields to constitute a match.
 
 Partial matching is enabled when the Exact Character Comparisons option is off (the default setting). If the option is on, partial matching is disabled and the filter value must exactly match a value in a field to constitute a match. For more information, see Table options.
 
-Filter retention
+## Filter retention
 A global filter remains active until you remove it, replace it with another global filter, or close the table. You can make a global filter the default filter for a table so that it is automatically applied every time you open the table.
 
 Global filters differ from local filters, which are active only during a single execution of a single Analytics operation.
