@@ -320,7 +320,7 @@ To perform a basic search, enter an expression in the Filter text box at the top
 
 The example below isolates all records that contain the name “United Equipment” in the Vendor_Name field:
 
-
+![Contoh1](https://github.com/ansyaku/tabk.acl/blob/main/img/Search1.PNG)
 
 Other basic searches using operators
 Isolates invoices of $5,000.00 or more:
