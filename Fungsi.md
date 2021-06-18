@@ -2,6 +2,10 @@
 Sebelum melakukan analisis, auditor perlu melakukan pengecekan terhadap kelengkapan data, salah satu caranya adalah dengan menggunakan **Verify**.
 _Step: _<br>
 Menu Bar : Data > Verify
+Kapan fungsi verify menghasilkan nilai TRUE ?
+* __character fields__ hanya mengandung karakter yang dapat diprint seperti huruf, bilangan, dan simbol.
+* __numeric fields__ hanya mengandung karakter numerik, seperti angka, desimal, dan simbol kueri.
+* __datetime fields__ hanya mengandung tanggal (date), tanggal dan waktu, atau waktu yang valid .
 
 ## Fungsi Search
 Auditor juga dapat melakukan verifikasi manual atas data dengan melakukan pencarian data sesuai kriteria verifikasi yang diinginkan.
