@@ -48,26 +48,17 @@ Filter values must appear at the start of fields to constitute a match.
 Partial matching is enabled when the Exact Character Comparisons option is off (the default setting). If the option is on, partial matching is disabled and the filter value must exactly match a value in a field to constitute a match. For more information, see Table options.
 
 ## Filter retention
-A global filter remains active until you remove it, replace it with another global filter, or close the table. You can make a global filter the default filter for a table so that it is automatically applied every time you open the table.
 
-Global filters differ from local filters, which are active only during a single execution of a single Analytics operation.
+You can make a global filter the default filter for a table so that it is automatically applied every time you open the table.
+* Filter global tetap aktif sampai anda menghapusnya, mengganti dengan filter global lain, atau menutup tabel. Apabila filter global aktif, maka indikator filter global akan muncul pada status bar followed by the filter syntax or the filter name, depending on whether the filter is ad hoc or named.
+* Filter global berbeda dengan filter lokal. Filter lokal hanya aktif pada saat satu proses analitik.
 
-When a global filter is active, the Global Filter indicator appears in the status bar followed by the filter syntax or the filter name, depending on whether the filter is ad hoc or named:
-
-an ad hoc filter Global Filter: (Vendor_No = "14438")
-a named filter Global Filter: Vend_14438
-Different ways to create and apply a global filter
+#### Different ways to create and apply a global filter
 There are several different ways to create and apply a global filter:
-
-Manually enter the filter syntax in the Filter text box
-Create a quick filter
-Create a filter, or select an existing filter, using the Expression Builder
-Select an existing filter from the Filter drop-down list
-
-
-
-
-
+* Manually enter the filter syntax in the Filter text box
+* Create a quick filter
+* Create a filter, or select an existing filter, using the Expression Builder
+* Select an existing filter from the Filter drop-down list
 
 Quick sorting data in a view
 Quick filtering data in a view
