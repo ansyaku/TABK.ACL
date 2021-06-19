@@ -18,8 +18,26 @@ Untuk mengimpor data, ACL dapat menarik data yang berasal dari beragam database/
 15. SQL Server Native Client (2012)- can be used for both SQL OLE DB provider and SQL ODBC driver for Windows
 16. SQL Server (2000 - lama) does not support some of the new features in SQL Server 2005 and above. 
 
+## Koneksi ke File Excel
+Untuk koneksi ke file XLS, atua XLSX, bisa dilakukan dengan tahap-tahap berikut :
+* Toolbar **Import** >> **File**<br><br>
+  ![SQL1](https://github.com/ansyaku/tabk.acl/blob/main/img/SQL1.png)
+  <br><br>
+* Pilih Excel
+* Pilih
 
-## Koneksi ke File
+## Koneksi ke File CSV atau TXT
+Untuk koneksi ke file CSV atau TXT, bisa dilakukan dengan tahap-tahap berikut :
+Untuk koneksi dari ACL ke SQL Server, dapat dilakukan tahap-tahap berikut :
+* Toolbar **Import** >> **File**<br><br>
+  ![SQL1](https://github.com/ansyaku/tabk.acl/blob/main/img/SQL1.png)
+  <br><br>
+* Pilih from PC
+* Pilih delimited text file
+* Definsikan pemisah, apakah koma
+* Definsikan kolom
+* Edit bila ada yang perlu diedit.
+* Finish
 
 ## Koneksi SQL Server
 ***
