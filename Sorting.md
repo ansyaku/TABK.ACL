@@ -60,6 +60,11 @@ There are several different ways to create and apply a global filter:
 * Create a filter, or select an existing filter, using the Expression Builder
 * Select an existing filter from the Filter drop-down list
 
+
+![Quick Filter](https://github.com/ansyaku/tabk.acl/blob/main/img/QuickF1.png)
+
+![Quick Filter](https://github.com/ansyaku/tabk.acl/blob/main/img/QuickF2.png)
+
 Quick sorting data in a view
 Quick filtering data in a view
 Quick searching data in a table
