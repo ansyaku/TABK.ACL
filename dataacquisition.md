@@ -24,8 +24,16 @@ Untuk koneksi ke file XLS, atua XLSX, bisa dilakukan dengan tahap-tahap berikut 
   ![SQL1](https://github.com/ansyaku/tabk.acl/blob/main/img/SQL1.png)
   <br><br>
 * Pilih Excel
-* Pilih
+  <br><br>
+  ![Excel1](https://github.com/ansyaku/tabk.acl/blob/main/img/Excel1.png)
+  <br><br>
 
+* Pilih
+  <br><br>
+  ![Excel2](https://github.com/ansyaku/tabk.acl/blob/main/img/Excel2.png)
+  <br><br>
+
+* Selanjutnya akan muncul resume terkait dengan pilihan yang telah kita buat. Apabila dirasa sudah cocok, maka dapat dilanjutkan dengan mengklik **Finish**.
 ## Koneksi ke File CSV atau TXT
 Untuk koneksi ke file CSV atau TXT, bisa dilakukan dengan tahap-tahap berikut :
 Untuk koneksi dari ACL ke SQL Server, dapat dilakukan tahap-tahap berikut :
