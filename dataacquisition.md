@@ -28,7 +28,9 @@ Untuk koneksi ke file XLS, atua XLSX, bisa dilakukan dengan tahap-tahap berikut 
   ![Excel1](https://github.com/ansyaku/tabk.acl/blob/main/img/Excel1.png)
   <br><br>
 
-* Selanjutnya, pilih data pada sheet mana saja yang akan dibawa masuk ke dalam ACL. Apabila pada excel anda, baris pertamanya adalah judul tabel, maka anda dapat memilih (mentickmark) **Use first row as Field Names**. Kadang-kadang, terdapat judul tabel yang tidak memungkinkan kita mengimpor data secara langsung, judul tabel dapat dikeluarkan dengan cara memilih **Start on line**, kita bisa menspesifikasi agar ACL hanya mengambil data dari baris tabel. 
+* Selanjutnya, pilih data pada sheet mana saja yang akan dibawa masuk ke dalam ACL. 
+  * Apabila pada excel anda, baris pertamanya adalah judul tabel, maka anda dapat memilih (mentickmark) **Use first row as Field Names**. 
+  * Kadang-kadang, terdapat judul tabel yang tidak memungkinkan kita mengimpor data secara langsung, judul tabel dapat dikeluarkan dengan cara memilih **Start on line**, kita bisa menspesifikasi agar ACL hanya mengambil data dari baris tabel. 
   <br><br>
   ![Excel2](https://github.com/ansyaku/tabk.acl/blob/main/img/Excel2.png)
   <br><br>
