@@ -177,14 +177,10 @@ Quick search you enter a text term in the Filter text box
 Quick filter you use the mouse to select search criteria
 Some limitations exist with quick search and quick filter, which are explained in the topics about these features.
 
-Search using Analytics functions
+## Search using Analytics functions
 Using functions to search gives you the greatest degree of power and flexibility. Similar to a basic search, you enter a search expression in the Filter text box, but the expression contains a function.
+FINDMULTI( ) digunakan untuk mendapatkan semua baris yang mengandung palik tidak satu requirement yang disyaratkan di findmulti.
 
-The example below uses the FINDMULTI( ) function to isolate all records that contain at least one of the search terms anywhere in the record.
-
-
-
-For detailed information about searching using functions, see Search and filter using Analytics functions.
 
 Select the first matching record
 You can use an Analytics command, accessed from the main menu, to select the first record in a table that meets the search criteria. This capability is primarily useful in Analytics scripts, where it can be used in conjunction with other commands to perform certain tasks.
@@ -231,7 +227,8 @@ Untuk melakukan
 
 To check the physical name, right-click the appropriate column header and select Properties. If necessary, copy the physical name from the text box at the top of the Modify Column dialog box. Do not use the Alternate Column Title.
 
-To search in a related field you must specify the fully qualified name of the field (that is, table.field name). For example: FIND("casino", Vendor.Vendor_Name)
+To search in a related field you must specify the fully qualified name of the field (that is, table.field name). 
+For example: FIND("casino", Vendor.Vendor_Name)
 
 Quick searching character data
 When quick searching character data, you can enter whole or partial words, or exact phrases.
@@ -242,310 +239,21 @@ If you want to search for an exact phrase, enclose the phrase in double quotatio
 To isolate a search term, include a trailing space after the term and enclose the term and the space in double quotation marks.
 For example, "cash " returns “cash” but not “cashier”, assuming that in the data the string “cash” is followed by at least one space
 
-Search terms
 
-Return records that contain:
-
-cas
-casino
-cash
-Americas
-Lancashire
-etcetera . . .
-casino
-casino
-casinos
-
-casino liquor
-
-casino
-
-casinos
-
-liquor
-
-liquors
-
-casino (and) liquor (order not considered)
-
-etcetera . . .
-
-“Diamond Casino”
-
-Diamond Casino
-
-“Diamond Casino” “Golden Casino”
-
-Diamond Casino
-
-Golden Casino
-
-Diamond Casino (and) Golden Casino (order not considered)
-
-casino, “ABC Liquors”
-
-casino
-
-casinos
-
-ABC Liquors
-
-casino (and) ABC Liquors (order not considered)
-
-etcetera . . .
-
-“ABC L”
-
-ABC Liquors
-
-ABC Limousine
-
-ABC Learning
-
-etcetera . . .
-
-“cash ”
-
-(the word ‘cash’ followed by one space)
-
-cash
-
-(in the data, requires that the string ‘cash’ is followed by at least one space)
-
-does not return ‘cashier’ or ‘Lancashire’
-
-Quick searching numeric or datetime data
-Note
-
-If you want to search for numeric or datetime data in a specific field, use quick filtering. For more information, see Quick filtering data in a view.
-
-When quick searching numeric or datetime data, you need to remember that you are searching the underlying source data rather than the data displayed in a view.
-
-Numbers, dates, and times are often formatted differently in the source data than they are in the view. Search terms need to match the source data formatting rather than the formatting in the view.
-
-You can select Edit > Table Layout to view the source data for a table.
-
-Quick searching numeric data
-The numeric format in the source data affects which records are returned for a specific search term.
-
-OpenShow me more
-Search term
-
-Numeric format in view
-
-Numeric format in source data
-
-Returns records that contain:
-
-1234.00
-
-9999.99
-
-9999.99
-
-1234.00
-
-9,999.99
-
-no records returned
-
-1,234.00
-
-9,999.99
-
-9999.99
-
-no records returned
-
-9,999.99
-
-1,234.00
-
-9.999,99
-
-no records returned
-
-(1234.00)
-
-(9999.99)
-
-(9999.99)
-
-(1234.00)
-
--9999.99
-
-no records returned
-
-1234.01
-
-9999.99
-
-(number rounded)
-
-for example: 1234.01
-
-9999.9999
-
-for example: 1234.0085
-
-no records returned
-
-1234.0085
-
-1234.0085
-
-123 456
-
-9999.99
-
-9999.99
-
-123
-
-456
-
-123 (and) 456 (order not considered)
-
-Quick searching datetime data
-The datetime format in the source data affects which records are returned for a specific search term.
-
-OpenShow me more
-Search term
-
-Datetime format in view
-
-Datetime format in source data
-
-Returns records that contain:
-
-12/31/2015
-
-MM/DD/YYYY
-
-MM/DD/YYYY
-
-12/31/2015
-
-DD/MM/YYYY
-
-no records returned
-
-YYYYMMDD
-
-no records returned
-
-31/12/2015
-
-MM/DD/YYYY
-
-no records returned
-
-DD/MM/YYYY
-
-31/12/2015
-
-YYYYMMDD
-
-no records returned
-
-20151231
-
-MM/DD/YYYY
-
-no records returned
-
-DD/MM/YYYY
-
-no records returned
-
-YYYYMMDD
-
-20151231
-
-2015-12-31
-
-YYYY-MM-DD
-
-YYYY-MM-DD
-
-error message
-
-no records returned
-
-FIND("2015-12-31")
-
-2015-12-31
-
-23:59:59
-
-hh:mm:ss
-
-hh:mm:ss
-
-23:59:59
-
-hhmmss
-
-no records returned
-
-20151231.235959
-
-MM/DD/YYYY hh:mm:ss
-
-YYYYMMDD.hhmmss
-
-20151231.235959
-
-MM/DD/YYYY hh:mm:ss
-
-no records returned
-
-Additional characteristics of quick searching
-Quick searching has these additional characteristics:
-
-Characteristic	Description
-Case-sensitivity	The search is not case-sensitive.
-Wildcards	Wildcard characters in search terms are not supported.
-Spaces	Leading, trailing, and intervening spaces in search terms are considered only if you enclose the search term or terms and the spaces inside double quotation marks.
+### Characteristic	Description
+* Case-sensitivity - Fitur case-sensitive tidak berlaku.
+* Spaces	Leading, trailing, and intervening spaces in search terms are considered only if you enclose the search term or terms and the spaces inside double quotation marks.
 When spaces are enclosed by double quotation marks they are treated like characters and must be exactly matched in the data.
+* Cotation marks	Only double quotation marks can be used for enclosing phrases. Single quotation marks are not supported for this purpose and are treated like a regular character.
+* Computed fields	Computed fields are not searched. Related fields	Related fields are not searched.
 
-Quotation marks	Only double quotation marks can be used for enclosing phrases. Single quotation marks are not supported for this purpose and are treated like a regular character.
-Computed fields	Computed fields are not searched.
-Related fields	Related fields are not searched.
-Limiting search by field	When modifying the auto-populated filter to limit the search to a specific field you can specify only character fields.
-Specifying a numeric or datetime field causes an error.
-
-Unsupported characters	
-If used in quick search terms, the following characters may give inconsistent results, or cause an error message, because they are the operators used in Analytics expressions:
-
-^ * ( ) - + = < >
-
-If you want to search for one of these characters, manually enter the FIND( ) function in the Filter text box. For example:
-
+### Karakter yang Tidak Disupport	
+If used in quick search terms, the following characters may give inconsistent results, or cause an error message, because they are the operators used in Analytics expressions: ^ * ( ) - + = < >
+ If you want to search for one of these characters, manually enter the FIND( ) function in the Filter text box. For example:
 FIND("a+b") or FIND("2015-12-31")
 
-Field boundaries
-Trailing spaces
 
-Field boundaries in records are ignored, which means it is possible for a search term to match a string of characters across a field boundary. Trailing spaces in fields are treated like characters.
-Search results found across field boundaries may not be valid results, unless you specifically intend this type of search. For example, the last digits of an account number and the first digits of an amount in an adjacent field could match a numeric search term, but would probably be a false positive.
-
-Note
-
-The field boundaries under discussion are the ones that appear in the table layout, based on the physical order of fields in the layout.
-
-The order of fields in the layout can differ from the order of columns in the associated view, creating different adjacencies in the layout and the view.
-
-If it is unclear why quick searching is returning a particular record, select Edit > Table Layout to view the source data being searched.
-
-Additional searching and filtering information
-For many other data searching options, including using wildcards, see Searching data.
-For more information about filtering, see Filtering data.
-For more information about the FIND( ) function, see FIND( ) function.
-
-
-Search and filter using Analytics functions
+## Search and filter using Analytics functions
 You can use Analytics functions to perform powerful and effective searching and filtering of data in tables.
 
 To use a function to search or filter, you create a filter in the Filter text box at the top of the table view. The filter uses one of the Analytics functions explained below.
