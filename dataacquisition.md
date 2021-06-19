@@ -33,7 +33,7 @@ Untuk koneksi dari ACL ke SQL Server, dapat dilakukan tahap-tahap berikut :
 ![Koneksi Login](https://github.com/ansyaku/tabk.acl/blob/main/img/SQL2.png)
 7. Akan muncul jendela, dari database yang ada pilih tabel-tabel mana saja yang akan diimpor, selanjutnya lakukan pengaturan yang sesuai dengan kebutuhan.
 <kbd>
-<a href="url"><img src="https://github.com/ansyaku/tabk.acl/blob/main/img/SQL3.png" align="left" | width="400 px" ></a>
+<a href="url"><img src="https://github.com/ansyaku/tabk.acl/blob/main/img/SQL3.png" align="left" width="50%" height="50%" ></a>
 </kbd>
 9. Klik **Save**
 10. Data akan muncul pada ACL anda.
