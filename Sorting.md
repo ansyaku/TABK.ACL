@@ -60,11 +60,6 @@ There are several different ways to create and apply a global filter:
 * Create a filter, or select an existing filter, using the Expression Builder
 * Select an existing filter from the Filter drop-down list
 
-
-![Quick Filter](https://github.com/ansyaku/tabk.acl/blob/main/img/QuickF1.png)
-
-![Quick Filter](https://github.com/ansyaku/tabk.acl/blob/main/img/QuickF2.png)
-
 Quick sorting data in a view
 Quick filtering data in a view
 Quick searching data in a table
@@ -72,24 +67,17 @@ Sorting and indexing
 Filtering data
 Searching data
 Search and filter using Analytics functions
-Quick filtering data in a view
-Quick filters allow you to quickly and easily filter data by using the mouse to select values in a view. You can select a single value, or multiple adjacent values. You can use quick filters with any data type.
 
-Quick filters auto-generate the syntax of the filter expression, which you can then modify as an easy way to create different or more complex filters.
+## Quick filtering data in a view
+* Quick filter juga bisa diberi nama dan disimpan untuk penggunaan di waktu lain. Quick filter dapat dilakukan dengan menggunakan mouse. 
+Anda bisa memilih satu nilai
+![Quick Filter](https://github.com/ansyaku/tabk.acl/blob/main/img/QuickF1.png)
+atau beberapa nilai sekaligus namun harus berdekatan. Quick filters merupakan filter global 
+![Quick Filter](https://github.com/ansyaku/tabk.acl/blob/main/img/QuickF2.png)
+* Quick filtering hanya dapat digunakan untuk dua nilai yang bersebelahan. Jadi, apabila berniat untuk melakukan filter dengan kolom berjauhan, atur terlebih dahulu kolom pada viewnya agar letaknya bersebelahan atau bisa juga dengan menggunakan Expression Builder. Opsi lain, bisa juga dengan menggunakan dua tahap, quick filter pertama dan kemudian quick filter ke dua..
 
-Quick filters are easier to create than filters you create with the Expression Builder, or enter manually, but they are also more limited. Like other types of filters, you can name and save quick filters for subsequent reuse.
 
-Quick filters are global filters
-The quick filter you create is a global filter. Global filters restrict which records in a view are displayed, or processed by Analytics operations. For more information, see Global filters (view filters).
-
-Quick filtering using non-adjacent values
-You cannot use non-adjacent values in the initial application of a quick filter. Depending on the complexity of the filter, you may be able to rearrange fields in the view to make values adjacent.
-
-You can use non-adjacent values subsequently if you apply a second quick filter to the subset of data created by the first quick filter.
-
-If you need to use non-adjacent values in a single filter that operates on an unfiltered data set, and the values cannot be made adjacent by rearranging fields, you must enter the filter expression manually, or create it using the Expression Builder.
-
-Quick filtering by blank or non-blank values
+## Quick filtering by blank or non-blank values
 Two of the options for quick filtering character fields are Blank and Not Blank. To use either of these criteria, you must first select a value in the field, but the actual selected value is ignored. This behavior allows you to filter a very long column of data for blanks without having to first locate a blank value.
 
 For information about filtering numeric or datetime fields by blank or non-blank values, see Searching data.
