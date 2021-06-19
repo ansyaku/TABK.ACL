@@ -1,0 +1,19 @@
+[0711/121431:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 6: CreateDevice2 failed: device lost, not available, or of out of memory
+[0711/121431:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D9 failed with error EGL_BAD_ALLOC
+[0711/121431:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 6: CreateDevice2 failed: device lost, not available, or of out of memory
+[0711/121431:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D9 failed with error EGL_BAD_ALLOC
+[0711/121431:ERROR:gl_surface_win.cc(67)] GLSurfaceEGL::InitializeOneOff failed.
+[0711/121431:ERROR:gpu_child_thread.cc(260)] Exiting GPU process due to errors during initialization
+[0711/121431:WARNING:raw_channel_win.cc(532)] WriteFile: The pipe is being closed. (0xE8)
+[0711/121441:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 6: CreateDevice2 failed: device lost, not available, or of out of memory
+[0711/121441:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D9 failed with error EGL_BAD_ALLOC
+[0711/121441:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 6: CreateDevice2 failed: device lost, not available, or of out of memory
+[0711/121441:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D9 failed with error EGL_BAD_ALLOC
+[0711/121441:ERROR:gl_surface_win.cc(67)] GLSurfaceEGL::InitializeOneOff failed.
+[0711/121441:ERROR:gpu_child_thread.cc(260)] Exiting GPU process due to errors during initialization
+[0711/121447:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 6: CreateDevice2 failed: device lost, not available, or of out of memory
+[0711/121447:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D9 failed with error EGL_BAD_ALLOC
+[0711/121447:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 6: CreateDevice2 failed: device lost, not available, or of out of memory
+[0711/121447:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D9 failed with error EGL_BAD_ALLOC
+[0711/121447:ERROR:gl_surface_win.cc(67)] GLSurfaceEGL::InitializeOneOff failed.
+[0711/121447:ERROR:gpu_child_thread.cc(260)] Exiting GPU process due to errors during initialization

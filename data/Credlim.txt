@@ -1,0 +1,137 @@
+Page ...   1                                         07/25/2016  12:56:10
+
+                         Customer Credit Limit Report                          
+                             Nonesuch Trading Co.                              
+                                   July 2016                                  
+
+Name, Address                 Cust#  Comments & Limit 
+---------------------------   -----  ---------------------------     
+Versa Tires                   35189  Client doesn't pay
+51001 Borneo Rd                      on time. 
+Pittsburgh      TX    75686          Limit:  32,000.00 
+
+Equitable Corporation         444413 Client in Ch. 11.
+6300 Metzerott Rd        
+Louisville      CO    80027          Limit:  22,000.00 
+
+Blue Atlanta                  463451 Note new address;
+301 E 2Nd St                         changed 11/2000.
+St Louis        MO    63131          Limit:  53,000.00 
+
+University National           269267 Good client; always
+9600 Market St                       pays on time.
+Scarsdale       NY    10583          Limit:  22,000.00 
+
+Second Bonnet Commercial      359310 Owner's dog named
+20500 American Rd                    "Skippy".
+Richmond        VA    23219          Limit:  60,000.00 
+
+Quorum Joy                    519311 No response to legal
+650 Broadway                         letter of June 2001.
+La Jolla        CA    92037          Limit:  59,000.00 
+
+Michigan Oilfield Inc.        564291 Check #97 bounced.
+8335 Grandview Ave                   Please call.
+Willoughby      OH    44094          Limit:  8,000.00 
+
+Banco Inc.                    815062 Limit upgraded to
+4441 N 12Th St                       current level 6/2001.
+Bronx           NY    10467          Limit:  66,000.00 
+
+Office Computer Ltd.          277097 Invoice #34 outstanding.
+101 Locust Ave           
+Lowell          MA    01851          Limit:  60,000.00 
+
+United City                   820025 Client installed ACL;
+920 4Th Street                       outstanding issues resolved.
+Bridgewater     NJ    08807          Limit:  46,000.00 
+
+Employment Media Ltd.         231494 No issues in 3 yrs
+57 W 66Th St                         to date.
+Elk Grove Villa IL    60007          Limit:  63,000.00 
+
+Metropolitan Pharmaceutic     795401 Under investigation by
+693 Delaware Ave                     OIG.
+Corning         NY    14830          Limit:  51,000.00 
+
+Kidder Enterprises            081559 Board dissolved in Jan;
+2900 Holdrege St                     no new board.
+Stamford        CT    06902          Limit:  49,000.00 
+
+Blue Services Group           878035 Annoying assistant for
+7600 Wake Forest Rd                  enquiries; bypass him.
+Malvern         PA    19355          Limit:  79,000.00 
+
+Farmers Lottery               258024 Wife runs the show.
+1260 Liewit Plaza        
+Lawrence        KS    66045          Limit:  81,000.00 
+
+Page ...   2                                         07/25/2016  12:56:10
+
+                         Customer Credit Limit Report                          
+                             Nonesuch Trading Co.                              
+                                   July 2016                                  
+
+Name                          Cust#  Comments & Limit 
+---------------------------   -----  ---------------------------     
+Belamina National Inc.        620304 Mr. Vaughn wants a higher
+9451 Walnut St                       limit, $125,000.
+Burlington      NC    27215          Limit:  94,000.00 
+
+Asia/America Coop             284354 Review sales tax agreement.
+4310 West Desert Rd      
+Carson City     NV    89701          Limit:  92,000.00 
+
+Union National                504356 Visit them next time we
+51557 Telegraph Rd                   are in Missouri.
+Hazelwood       MO    63042          Limit:  45,000.00 
+
+University Electronics        065003 Dot-com exposure may put
+7000 S Wabash Ave                    them in trouble.
+Burlington      NC    27215          Limit:  10,000.00 
+
+Accel Enterprises             297397 Verify their phone 
+1000 Strayer Rd                      number.
+Brookline       MA    02167          Limit:  72,000.00 
+
+Connecticut Corp.             051593 Last two checks bounced.
+600 Paragon Dr           
+Brooklyn        NY    11201          Limit:  80,000.00 
+
+Bully Industries              262001 Company to be bought
+8 West Street                        by Asia/America soon.
+Las Vegas       NV    89109          Limit:  53,000.00 
+
+First Healthcare              797352 Under investigation for
+88 State St                          Medicare fraud.
+Austin          TX    78752          Limit:  28,000.00 
+
+Salt Bank Of America          914508 Purchased bank in Grand
+401 N Broadway                       Caymans.
+Bentonville     AR    72712          Limit:  27,000.00 
+
+Source Telex                  962353 Upgrade to "Good" risk.
+200 Market St            
+Battle Creek    MI    49017          Limit:  44,000.00 
+
+Meditronic Technology         513574 Recently hired new CEO.
+7827 Chemo Blvd          
+Calabasas       CA    91302          Limit:  27,000.00 
+
+Grand Ltd                     230575 No credit problems in 
+Three First City Pl                  3 years.
+Santa Fe        NM    87501          Limit:  98,000.00 
+
+Vinnell Joy & Co.             559491 No discounts taken to
+901 E Joppa Rd                       date.
+Richland        WA    99352          Limit:  66,000.00 
+
+Inter Company Trading         207275 Avoid talking to CFO.
+2600 S Ulster St                     
+Provo           UT    84604          Limit:  91,000.00 
+
+1St Technology Group          329169 Dot-com exposure.
+7837 Walmsley Ave        
+Secaucus        NJ    07094          Limit:  25,000.00 
+
+

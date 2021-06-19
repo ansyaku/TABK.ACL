@@ -1,0 +1,1013 @@
+Page ...   1                                         07/20/2014  15:34:38
+SYSINI:OU/T
+
+                                              MYSTICAL INDUSTRIES                                               
+                                        PURCHASING REPORT: 12/2013 - 12/2014                                         
+
+                                                                                          PURCH        
+PONUM    VENDOR    SUPPLIER                                 DIVISION         PO DATE      REP            DEPOSIT 
+------   NUMBER    ---------------------------------------- ---------------- ----------   -----   --------------                                                               REP                    
+         ------
+       OTHER           CONTRACT     VARIANCE
+       PAYMENTS          AMOUNT     --------      
+      ---------   ------------- 
+483739   11663     MORE POWER INDUSTRIES                    DEVELOPMENT      12/13/2013   AR             2692.65
+          20.09         2650.09        62.65
+
+422764   10721     WITZ & PARTNERS                          DEVELOPMENT      12/14/2013   CW             3960.30
+          38.61         3962.69        36.22
+
+417372   12248     GLOBAL TRADE HARDWARE                    DEVELOPMENT      12/18/2013   AR             1548.13
+          48.14         1508.68        87.59
+
+394877   10656     CARR INTERNATIONAL                       DEVELOPMENT      12/18/2013   RJ             5352.87
+          32.64         5404.40       -18.89
+
+497190   11435     GROUP SERVICES                           DEVELOPMENT      12/25/2013   AR             2192.15
+          37.52         2250.80       -21.13
+
+481283   12289     MGMT MFG.                                DEVELOPMENT      01/10/2014   AR             5583.07
+          98.03         5570.27       110.83
+
+409898   12433     KORO INTERNATIONAL                       DEVELOPMENT      01/10/2014   NO             5935.40
+          79.75         6012.58         2.57
+
+307561   10656     CARR INTERNATIONAL                       DEVELOPMENT      01/10/2014   RJ             3776.21
+          60.79         3753.62        83.38
+
+392507   10001     BOLTON DISTRIBUTION                      DEVELOPMENT      02/18/2014   KM             4927.04
+          78.93         4906.44        99.53
+
+437437   12433     KORO INTERNATIONAL                       DEVELOPMENT      02/25/2014   KA             1980.55
+          30.36         1992.20        18.71
+
+421398   13808     NOVATECH WHOLESALE                       DEVELOPMENT      02/25/2014   AR             4974.48
+           3.46         5027.99       -50.05
+
+396716   10656     CARR INTERNATIONAL                       DEVELOPMENT      02/25/2014   RN              642.05
+         107.96          566.32       183.69
+
+395349   10134     STARS TRADING                            DEVELOPMENT      03/15/2014   KA              183.31
+         101.70          236.23        48.78
+
+428283   10448     PACRIM ENGINEERED PRODUCTS               DEVELOPMENT      03/15/2014   KM             4434.52
+          44.47         4445.04        33.95
+
+493772   10721     WITZ & PARTNERS                          DEVELOPMENT      03/15/2014   AR             1852.84
+           8.64         1848.37        13.11
+
+
+
+Page ...   2                                         07/20/2014  15:34:38
+SYSINI:OU/T
+
+                                              MYSTICAL INDUSTRIES                                               
+                                        PURCHASING REPORT: 12/2013 - 12/2014                                         
+
+PONUM    VENDOR    SUPPLIER                                 DIVISION         PO DATE      PURCH          DEPOSIT 
+         NUMBER                                                                           REP                    
+          OTHER        CONTRACT     VARIANCE
+       PAYMENTS          AMOUNT             
+
+398795   13411     UNITED EQUIPMENT                         DEVELOPMENT      03/21/2014   KG             2601.86
+          36.76         2608.26        30.36
+
+494858   14438     BLOOM COUNTY CONSTRUCTION                DEVELOPMENT      04/21/2014   AR             2171.66
+          13.10         2222.15       -37.39
+
+398232   12130     STROUD & SONS                            DEVELOPMENT      04/30/2014   RJ             3413.42
+          79.07         3402.93        89.56
+
+481833   10787     HERBIE'S HARDWARE                        DEVELOPMENT      04/30/2014   AR              742.49
+         101.48          707.66       136.31
+
+464665   13373     LILYDALE HARDWARE                        DEVELOPMENT      04/30/2014   NO             5691.62
+          41.92         5643.83        89.71
+
+123457   12433     KORO INTERNATIONAL                       FABRICATION      05/10/2014   RW              190.70
+          50.73          116.03       125.40
+
+123457   13373     LILYDALE HARDWARE                        FABRICATION      05/11/2014   RW             5169.51
+          24.02         5202.85        -9.32
+
+145687   13373     LILYDALE HARDWARE                        FABRICATION      05/17/2014   RW             5211.72
+          68.72         5120.21       160.23
+
+145687   12433     KORO INTERNATIONAL                       FABRICATION      05/17/2014   RW             4633.04
+          60.33         4634.49        58.88
+
+742367   12433     KORO INTERNATIONAL                       FABRICATION      05/30/2014   RW             5183.56
+          70.16         5143.35       110.37
+
+464736   11663     MORE POWER INDUSTRIES                    DEVELOPMENT      05/31/2014   CW             3990.61
+         109.40         4001.91        98.10
+
+742367   13373     LILYDALE HARDWARE                        FABRICATION      05/31/2014   RW             2292.39
+          73.82         2329.30        36.91
+
+963427   12433     KORO INTERNATIONAL                       FABRICATION      06/12/2014   RW             2370.56
+         112.17         2349.16       133.57
+
+963427   13373     LILYDALE HARDWARE                        FABRICATION      06/13/2014   RW             5314.20
+          68.89         5373.98         9.11
+
+493857   14299     STEEL CASE MANUFACTURING                 DEVELOPMENT      06/15/2014   AR             2050.08
+          85.82         1992.47       143.43
+
+
+
+Page ...   3                                         07/20/2014  15:34:38
+SYSINI:OU/T
+
+                                              MYSTICAL INDUSTRIES                                               
+                                        PURCHASING REPORT: 12/2013 - 12/2014                                         
+
+PONUM    VENDOR    SUPPLIER                                 DIVISION         PO DATE      PURCH          DEPOSIT 
+         NUMBER                                                                           REP                    
+          OTHER        CONTRACT     VARIANCE
+       PAYMENTS          AMOUNT             
+
+413148   10134     STARS TRADING                            DEVELOPMENT      06/15/2014   CW             1681.24
+           9.89         1752.65       -61.52
+
+392460   11182     INDUSTRIAL EQUIPMENT CO-OP               DEVELOPMENT      06/15/2014   CR             5716.65
+          15.70         5707.08        25.27
+
+392461   11182     INDUSTRIAL EQUIPMENT CO-OP               DEVELOPMENT      06/16/2014   CR             2423.44
+          88.78         2391.20       121.02
+
+498101   13411     UNITED EQUIPMENT                         DEVELOPMENT      06/16/2014   CW             5373.57
+          97.31         5450.94        19.94
+
+492028   10559     ARIZONA INDUSTRIES                       DEVELOPMENT      06/19/2014   AR             4727.80
+          87.04         4760.29        54.55
+
+869107   12433     KORO INTERNATIONAL                       FABRICATION      07/04/2014   RW             4890.68
+          63.38         4879.07        74.99
+
+869107   13373     LILYDALE HARDWARE                        FABRICATION      07/05/2014   RW             1169.77
+          11.05         1108.31        72.51
+
+497634   11837     WHOLESOME HARDWARE                       DEVELOPMENT      07/07/2014   NC             3019.75
+         100.48         2999.03       121.20
+
+823507   12433     KORO INTERNATIONAL                       FABRICATION      07/11/2014   RW             3876.79
+          80.53         3854.91       102.41
+
+823507   13373     LILYDALE HARDWARE                        FABRICATION      07/12/2014   RW              521.19
+          37.75          531.02        27.92
+
+392539   13440     GREAT WESTERN LIMITED                    DEVELOPMENT      07/13/2014   CW             5545.12
+          50.51         5516.09        79.54
+
+417198   14599     US MFG. CORP                             DEVELOPMENT      07/13/2014   GW              715.33
+          80.75          762.23        33.85
+
+392533   10534     LASER INDUSTRIES                         DEVELOPMENT      07/26/2014   NM             4193.33
+          38.75         4180.40        51.68
+
+398850   10726     LARSON SUPPLIES                          DEVELOPMENT      07/31/2014   CW             4451.60
+           4.33         4519.08       -63.15
+
+460585   11837     WHOLESOME HARDWARE                       DEVELOPMENT      07/31/2014   NO             5682.38
+           4.32         5670.44        16.26
+
+
+
+Page ...   4                                         07/20/2014  15:34:38
+SYSINI:OU/T
+
+                                              MYSTICAL INDUSTRIES                                               
+                                        PURCHASING REPORT: 12/2013 - 12/2014                                         
+
+PONUM    VENDOR    SUPPLIER                                 DIVISION         PO DATE      PURCH          DEPOSIT 
+         NUMBER                                                                           REP                    
+          OTHER        CONTRACT     VARIANCE
+       PAYMENTS          AMOUNT             
+
+498313   10951     HYATT INDUSTRIES                         DEVELOPMENT      12/15/2013   AR             3853.81
+          58.01         3943.00       -31.18
+
+417833   13928     LIBERTY TRADING                          DEVELOPMENT      12/31/2013   AR             5526.19
+           8.24         5613.90       -79.47
+
+986457   13373     LILYDALE HARDWARE                        FABRICATION      12/15/2013   RN             6083.66
+           2.31         6074.32        11.65
+
+977647   10656     CARR INTERNATIONAL                       DEVELOPMENT      12/16/2013   RZ             2712.21
+          48.97         2698.78        62.40
+
+986632   10656     CARR INTERNATIONAL                       DEVELOPMENT      12/17/2013   CR             3445.28
+          36.10         3462.69        18.69
+
+371711   10879     YELLOW INDUSTRIES                        DEVELOPMENT      12/18/2013   AR             4892.86
+          66.13         4824.71       134.28
+
+975363   12130     STROUD & SONS                            DEVELOPMENT      12/18/2013   CR             1854.38
+           5.38         1897.03       -37.27
+
+976559   10656     CARR INTERNATIONAL                       DEVELOPMENT      12/19/2013   CR             5424.34
+          65.53         5434.35        55.52
+
+987476   14711     WINSTON MFG.                             DEVELOPMENT      12/20/2013   CC             4801.76
+          51.72         4735.36       118.12
+
+974376   12230     ELBOWE & FOOTE SALES                     DEVELOPMENT      12/21/2013   CW             2428.50
+          72.26         2483.16        17.60
+
+967632   11182     INDUSTRIAL EQUIPMENT CO-OP               DEVELOPMENT      12/22/2013   CW              444.25
+          29.65          482.25        -8.35
+
+957575   11182     INDUSTRIAL EQUIPMENT CO-OP               DEVELOPMENT      12/23/2013   GC             4234.09
+          83.93         4177.43       140.59
+
+408109   13373     LILYDALE HARDWARE                        DEVELOPMENT      12/24/2013   NO             4967.37
+          39.68         4986.11        20.94
+
+395832   11247     MERIDIAN INDUSTRIES                      DEVELOPMENT      12/24/2013   NM             4615.08
+          91.13         4646.87        59.34
+
+978663   10534     LASER INDUSTRIES                         DEVELOPMENT      12/24/2013   GW             3825.11
+          80.64         3794.22       111.53
+
+
+
+Page ...   5                                         07/20/2014  15:34:38
+SYSINI:OU/T
+
+                                              MYSTICAL INDUSTRIES                                               
+                                        PURCHASING REPORT: 12/2013 - 12/2014                                         
+
+PONUM    VENDOR    SUPPLIER                                 DIVISION         PO DATE      PURCH          DEPOSIT 
+         NUMBER                                                                           REP                    
+          OTHER        CONTRACT     VARIANCE
+       PAYMENTS          AMOUNT             
+
+965633   13440     GREAT WESTERN LIMITED                    DEVELOPMENT      09/25/2014   NO             3658.04
+          10.22         3652.15        16.11
+
+986764   10726     LARSON SUPPLIES                          DEVELOPMENT      09/26/2014   NO             4196.60
+          26.91         4181.03        42.48
+
+970550   13453     PAINT AND WALLS UNLIMITED                DEVELOPMENT      09/27/2014   NO             2370.13
+          11.04         2339.43        41.74
+
+907059   13423     KAREN'S FACTORY                          DEVELOPMENT      09/28/2014   NO             5243.32
+          11.20         5241.38        13.14
+
+908007   11247     MERIDIAN INDUSTRIES                      DEVELOPMENT      09/29/2014   NO             4939.34
+          40.03         4949.57        29.80
+
+980079   11922     DIDA LIMITED                             DEVELOPMENT      09/30/2014   NO              280.36
+          97.90          331.71        46.55
+
+989860   10025     MITCHELL ENT.                            DEVELOPMENT      10/01/2014   KA             2227.02
+         101.56         2260.25        68.33
+
+928008   12701     HARRIS PROJECTS                          DEVELOPMENT      10/02/2014   KG             3348.26
+          98.08         3428.12        18.22
+
+942808   10534     LASER INDUSTRIES                         DEVELOPMENT      10/03/2014   KM              516.12
+         108.33          491.43       133.02
+
+949808   10534     LASER INDUSTRIES                         DEVELOPMENT      10/04/2014   NS             4322.23
+          89.14         4344.11        67.26
+
+928708   10134     STARS TRADING                            DEVELOPMENT      10/05/2014   NC             3545.85
+          31.07         3604.02       -27.10
+
+976608   13411     UNITED EQUIPMENT                         DEVELOPMENT      10/06/2014   NC             4059.11
+          88.59         4140.55         7.15
+
+463752   11645     MILLER LIGHTS                            DEVELOPMENT      10/12/2014   NC             1814.43
+          84.87         1797.20       102.10
+
+449373   14438     BLOOM COUNTY CONSTRUCTION                DEVELOPMENT      10/19/2014   GC             3790.71
+          12.96         3846.21       -42.54
+
+476540   12701     HARRIS PROJECTS                          DEVELOPMENT      11/03/2014   NO             5924.65
+           7.00         5923.64         8.01
+
+
+
+Page ...   6                                         07/20/2014  15:34:38
+SYSINI:OU/T
+
+                                              MYSTICAL INDUSTRIES                                               
+                                        PURCHASING REPORT: 12/2013 - 12/2014                                         
+
+PONUM    VENDOR    SUPPLIER                                 DIVISION         PO DATE      PURCH          DEPOSIT 
+         NUMBER                                                                           REP                    
+          OTHER        CONTRACT     VARIANCE
+       PAYMENTS          AMOUNT             
+
+467643   10720     PANTAGES INC.                            DEVELOPMENT      11/03/2014   KM             5638.49
+          34.49         5696.59       -23.61
+
+837382   14913     PROMAC SERVICES                          DECORATION       11/08/2014   RW             1608.72
+         110.93         1561.51       158.14
+
+779088   13373     LILYDALE HARDWARE                        FABRICATION      11/08/2014   RW             4786.11
+           1.73         4774.10        13.74
+
+418637   13373     LILYDALE HARDWARE                        DEVELOPMENT      11/08/2014   KG             3975.09
+          30.11         3923.22        81.98
+
+419873   13136     MULLER CORP.                             DEVELOPMENT      11/08/2014   AR             1218.66
+          63.94         1241.57        41.03
+
+772088   13373     LILYDALE HARDWARE                        FABRICATION      11/08/2014   RW             4239.44
+          55.73         4254.90        40.27
+
+708272   12433     KORO INTERNATIONAL                       FABRICATION      11/08/2014   NC             5264.24
+          17.80         5195.46        86.58
+
+703832   13373     LILYDALE HARDWARE                        FABRICATION      11/08/2014   NC             1527.51
+          31.31         1559.13        -0.31
+
+394544   14711     WINSTON MFG.                             DEVELOPMENT      11/08/2014   RZ              723.78
+          24.26          809.36       -61.32
+
+728290   13373     LILYDALE HARDWARE                        FABRICATION      11/08/2014   NO             3920.10
+          28.46         3889.00        59.56
+
+780792   13373     LILYDALE HARDWARE                        FABRICATION      11/09/2014   NO             5445.46
+          86.49         5467.35        64.60
+
+728272   12433     KORO INTERNATIONAL                       FABRICATION      11/09/2014   KA             5133.47
+          46.99         5126.00        54.46
+
+780227   12433     KORO INTERNATIONAL                       FABRICATION      11/09/2014   RW              752.78
+          55.38          712.15        96.01
+
+747392   13373     LILYDALE HARDWARE                        FABRICATION      11/10/2014   KG              922.16
+          29.24          918.99        32.41
+
+726532   12433     KORO INTERNATIONAL                       FABRICATION      11/10/2014   NO             3466.24
+          36.30         3463.12        39.42
+
+
+
+Page ...   7                                         07/20/2014  15:34:39
+SYSINI:OU/T
+
+                                              MYSTICAL INDUSTRIES                                               
+                                        PURCHASING REPORT: 12/2013 - 12/2014                                         
+
+PONUM    VENDOR    SUPPLIER                                 DIVISION         PO DATE      PURCH          DEPOSIT 
+         NUMBER                                                                           REP                    
+          OTHER        CONTRACT     VARIANCE
+       PAYMENTS          AMOUNT             
+
+788291   13373     LILYDALE HARDWARE                        FABRICATION      11/10/2014   RW             2467.22
+          72.01         2457.97        81.26
+
+738822   12433     KORO INTERNATIONAL                       FABRICATION      11/11/2014   KM             4670.47
+          99.34         4715.41        54.40
+
+729000   13373     LILYDALE HARDWARE                        FABRICATION      11/11/2014   RW             5694.36
+           5.52         5765.44       -65.56
+
+788829   11475     TRIATHALON GROUP                         MACHINING        11/11/2014   RW             1947.60
+          63.98         1999.70        11.88
+
+743789   13373     LILYDALE HARDWARE                        FABRICATION      11/12/2014   NS             2983.16
+           1.33         2950.08        34.41
+
+700018   12433     KORO INTERNATIONAL                       FABRICATION      11/12/2014   RW             2952.10
+          51.76         2930.27        73.59
+
+702982   12433     KORO INTERNATIONAL                       FABRICATION      11/13/2014   RW             1341.55
+          96.12         1369.35        68.32
+
+773022   12433     KORO INTERNATIONAL                       FABRICATION      11/13/2014   NC             5420.67
+          30.41         5335.82       115.26
+
+960469   10001     BOLTON DISTRIBUTION                      DEVELOPMENT      11/16/2014   NC             2193.17
+          18.57         2178.55        33.19
+
+936476   14599     US MFG. CORP                             DEVELOPMENT      11/17/2014   NO             5664.44
+          97.60         5667.84        94.20
+
+936376   11837     WHOLESOME HARDWARE                       DEVELOPMENT      11/18/2014   NO             1763.03
+          55.23         1701.35       116.91
+
+938733   11645     MILLER LIGHTS                            DEVELOPMENT      11/19/2014   AR             1828.60
+          64.37         1764.83       128.14
+
+900083   12636     HERITAGE CASES                           DEVELOPMENT      11/20/2014   AR             1958.38
+          93.84         1946.53       105.69
+
+908820   12701     HARRIS PROJECTS                          DEVELOPMENT      11/21/2014   AR             3642.16
+          66.57         3572.45       136.28
+
+990028   12576     TIMMY'S TOOLS                            DEVELOPMENT      11/22/2014   AR             5952.13
+         110.22         5975.60        86.75
+
+
+
+Page ...   8                                         07/20/2014  15:34:39
+SYSINI:OU/T
+
+                                              MYSTICAL INDUSTRIES                                               
+                                        PURCHASING REPORT: 12/2013 - 12/2014                                         
+
+PONUM    VENDOR    SUPPLIER                                 DIVISION         PO DATE      PURCH          DEPOSIT 
+         NUMBER                                                                           REP                    
+          OTHER        CONTRACT     VARIANCE
+       PAYMENTS          AMOUNT             
+
+434357   10448     PACRIM ENGINEERED PRODUCTS               DEVELOPMENT      11/22/2014   AR             5082.22
+          40.79         5120.09         2.92
+
+928298   13808     NOVATECH WHOLESALE                       DEVELOPMENT      11/22/2014   NO             3283.02
+         108.76         3252.21       139.57
+
+463738   12576     TIMMY'S TOOLS                            DEVELOPMENT      11/22/2014   KM             4630.09
+          46.36         4702.64       -26.19
+
+938383   10448     PACRIM ENGINEERED PRODUCTS               DEVELOPMENT      11/23/2014   AR             4294.43
+          63.40         4284.53        73.30
+
+950393   13136     MULLER CORP.                             DEVELOPMENT      11/23/2014   NO             3606.32
+          17.33         3607.93        15.72
+
+782752   12433     KORO INTERNATIONAL                       FABRICATION      11/23/2014   RJ             1771.30
+          57.17         1749.41        79.06
+
+933927   10721     WITZ & PARTNERS                          DEVELOPMENT      11/24/2014   AR              759.21
+          25.83          773.08        11.96
+
+980083   10534     LASER INDUSTRIES                         DEVELOPMENT      11/24/2014   NO             4704.66
+          41.72         4731.52        14.86
+
+757502   13373     LILYDALE HARDWARE                        FABRICATION      11/24/2014   RJ             5712.20
+          58.93         5681.09        90.04
+
+928292   11663     MORE POWER INDUSTRIES                    DEVELOPMENT      11/25/2014   AR             3990.41
+          12.10         3982.36        20.15
+
+736359   11663     MORE POWER INDUSTRIES                    DEVELOPMENT      11/25/2014   RN             2398.74
+          78.63         2332.97       144.40
+
+999902   10134     STARS TRADING                            DEVELOPMENT      11/25/2014   NO             2580.65
+          40.04         2646.40       -25.71
+
+729373   14438     BLOOM COUNTY CONSTRUCTION                DEVELOPMENT      11/26/2014   RZ             5840.47
+          66.35         5815.47        91.35
+
+982873   14438     BLOOM COUNTY CONSTRUCTION                DEVELOPMENT      11/26/2014   AR             3645.03
+          15.63         3651.14         9.52
+
+735393   10559     ARIZONA INDUSTRIES                       DEVELOPMENT      11/27/2014   CR             3490.60
+          26.23         3483.18        33.65
+
+
+
+Page ...   9                                         07/20/2014  15:34:39
+SYSINI:OU/T
+
+                                              MYSTICAL INDUSTRIES                                               
+                                        PURCHASING REPORT: 12/2013 - 12/2014                                         
+
+PONUM    VENDOR    SUPPLIER                                 DIVISION         PO DATE      PURCH          DEPOSIT 
+         NUMBER                                                                           REP                    
+          OTHER        CONTRACT     VARIANCE
+       PAYMENTS          AMOUNT             
+
+936309   10559     ARIZONA INDUSTRIES                       DEVELOPMENT      11/27/2014   AR             2293.62
+          51.69         2217.02       128.29
+
+779870   11435     GROUP SERVICES                           DEVELOPMENT      11/28/2014   CR             5732.47
+          74.87         5826.93       -19.59
+
+987487   12433     KORO INTERNATIONAL                       DEVELOPMENT      11/28/2014   KA             3592.24
+           9.71         3582.00        19.95
+
+978181   11435     GROUP SERVICES                           DEVELOPMENT      11/28/2014   AR             5474.69
+          98.61         5417.82       155.48
+
+979831   14299     STEEL CASE MANUFACTURING                 DEVELOPMENT      11/29/2014   AR             4002.47
+          59.93         3979.69        82.71
+
+707370   14299     STEEL CASE MANUFACTURING                 DEVELOPMENT      11/29/2014   CR             3555.47
+          46.32         3634.03       -32.24
+
+973728   13373     LILYDALE HARDWARE                        DEVELOPMENT      11/29/2014   KG             2256.56
+          84.81         2268.50        72.87
+
+974723   12433     KORO INTERNATIONAL                       DEVELOPMENT      11/30/2014   KM             3038.18
+          17.40         3066.39       -10.81
+
+739052   13928     LIBERTY TRADING                          DEVELOPMENT      11/30/2014   CC             5121.39
+         109.58         5202.12        28.85
+
+921879   13928     LIBERTY TRADING                          DEVELOPMENT      11/30/2014   AR             3110.49
+          92.72         3031.04       172.17
+
+773090   10951     HYATT INDUSTRIES                         DEVELOPMENT      12/01/2014   CW             1313.17
+          67.96         1359.08        22.05
+
+982728   10951     HYATT INDUSTRIES                         DEVELOPMENT      12/01/2014   AR              104.36
+          71.27           36.61       139.02
+
+987273   13373     LILYDALE HARDWARE                        DEVELOPMENT      12/01/2014   KM             4296.23
+          93.39         4353.78        35.84
+
+793832   10879     YELLOW INDUSTRIES                        DEVELOPMENT      12/02/2014   CW             2104.37
+          33.78         2063.22        74.93
+
+983729   10879     YELLOW INDUSTRIES                        DEVELOPMENT      12/02/2014   AR             5035.00
+          42.19         5112.45       -35.26
+
+
+
+Page ...  10                                         07/20/2014  15:34:39
+SYSINI:OU/T
+
+                                              MYSTICAL INDUSTRIES                                               
+                                        PURCHASING REPORT: 12/2013 - 12/2014                                         
+
+PONUM    VENDOR    SUPPLIER                                 DIVISION         PO DATE      PURCH          DEPOSIT 
+         NUMBER                                                                           REP                    
+          OTHER        CONTRACT     VARIANCE
+       PAYMENTS          AMOUNT             
+
+977482   12433     KORO INTERNATIONAL                       DEVELOPMENT      12/02/2014   KM             1918.52
+          10.91         1873.66        55.77
+
+928739   13373     LILYDALE HARDWARE                        DEVELOPMENT      12/03/2014   KM             3987.07
+           9.40         3972.98        23.49
+
+739304   12248     GLOBAL TRADE HARDWARE                    DEVELOPMENT      12/03/2014   GC             2387.43
+          85.91         2429.88        43.46
+
+972729   12248     GLOBAL TRADE HARDWARE                    DEVELOPMENT      12/03/2014   AR             3415.15
+         106.34         3428.03        93.46
+
+987422   12289     MGMT MFG.                                DEVELOPMENT      12/04/2014   CC              196.31
+          62.11          189.61        68.81
+
+928924   11475     TRIATHALON GROUP                         DEVELOPMENT      12/04/2014   KM             2006.10
+          43.03         1964.42        84.71
+
+782332   12289     MGMT MFG.                                DEVELOPMENT      12/04/2014   GW             6089.05
+          29.72         6088.55        30.22
+
+902820   10787     HERBIE'S HARDWARE                        DEVELOPMENT      12/05/2014   CW              129.84
+         111.23          114.08       126.99
+
+993299   10787     HERBIE'S HARDWARE                        DEVELOPMENT      12/05/2014   NO             3275.67
+          26.68         3308.43        -6.08
+
+947498   10720     PANTAGES INC.                            DEVELOPMENT      12/05/2014   CW             1414.51
+          91.40         1411.53        94.38
+
+920328   12230     ELBOWE & FOOTE SALES                     DEVELOPMENT      12/05/2014   KA             3136.68
+          15.73         3193.74       -41.33
+
+928482   13864     BINFORD TOOLS                            DEVELOPMENT      12/06/2014   CW             3654.83
+           2.71         3661.86        -4.32
+
+990320   13808     NOVATECH WHOLESALE                       DEVELOPMENT      12/06/2014   CW             4842.42
+          91.76         4859.59        74.59
+
+948738   11182     INDUSTRIAL EQUIPMENT CO-OP               DEVELOPMENT      12/06/2014   KA              747.08
+           7.31          736.37        18.02
+
+947283   12576     TIMMY'S TOOLS                            DEVELOPMENT      12/07/2014   GC             1131.74
+          54.92         1081.25       105.41
+
+
+
+Page ...  11                                         07/20/2014  15:34:39
+SYSINI:OU/T
+
+                                              MYSTICAL INDUSTRIES                                               
+                                        PURCHASING REPORT: 12/2013 - 12/2014                                         
+
+PONUM    VENDOR    SUPPLIER                                 DIVISION         PO DATE      PURCH          DEPOSIT 
+         NUMBER                                                                           REP                    
+          OTHER        CONTRACT     VARIANCE
+       PAYMENTS          AMOUNT             
+
+992992   13136     MULLER CORP.                             DEVELOPMENT      12/07/2014   GC             4988.59
+          87.54         4975.16       100.97
+
+948483   10448     PACRIM ENGINEERED PRODUCTS               DEVELOPMENT      12/08/2014   GW             5647.44
+         112.30         5694.17        65.57
+
+982848   10534     LASER INDUSTRIES                         DEVELOPMENT      12/08/2014   GW             2233.08
+          52.72         2171.46       114.34
+
+907393   10721     WITZ & PARTNERS                          DEVELOPMENT      12/09/2014   NO             1947.02
+          76.84         1935.35        88.51
+
+934719   10134     STARS TRADING                            DEVELOPMENT      12/09/2014   NO             2787.26
+          74.35         2739.22       122.39
+
+948749   12433     KORO INTERNATIONAL                       FABRICATION      12/09/2014   KA             4112.72
+          64.65         4116.04        61.33
+
+907373   11663     MORE POWER INDUSTRIES                    DEVELOPMENT      12/10/2014   NO             5386.37
+         100.95         5389.29        98.03
+
+908393   13373     LILYDALE HARDWARE                        FABRICATION      12/10/2014   KA              402.08
+         107.73          377.95       131.86
+
+987382   13411     UNITED EQUIPMENT                         DEVELOPMENT      12/10/2014   NO             3017.65
+           9.29         3035.80        -8.86
+
+902438   12433     KORO INTERNATIONAL                       FABRICATION      12/11/2014   KA             1148.40
+          72.38         1210.36        10.42
+
+907274   14438     BLOOM COUNTY CONSTRUCTION                DEVELOPMENT      12/11/2014   NO             3074.37
+          81.58         3028.42       127.53
+
+937382   10001     BOLTON DISTRIBUTION                      DEVELOPMENT      12/11/2014   NO             1073.09
+          83.94         1017.58       139.45
+
+927382   14599     US MFG. CORP                             DEVELOPMENT      12/12/2014   NO             4238.84
+          64.56         4289.97        13.43
+
+987404   10134     STARS TRADING                            DEVELOPMENT      12/12/2014   NO             4562.44
+          39.37         4543.11        58.70
+
+983931   13373     LILYDALE HARDWARE                        FABRICATION      12/12/2014   KA             2632.07
+          87.74         2675.75        44.06
+
+
+
+Page ...  12                                         07/20/2014  15:34:39
+SYSINI:OU/T
+
+                                              MYSTICAL INDUSTRIES                                               
+                                        PURCHASING REPORT: 12/2013 - 12/2014                                         
+
+PONUM    VENDOR    SUPPLIER                                 DIVISION         PO DATE      PURCH          DEPOSIT 
+         NUMBER                                                                           REP                    
+          OTHER        CONTRACT     VARIANCE
+       PAYMENTS          AMOUNT             
+
+396578   12701     HARRIS PROJECTS                          DEVELOPMENT      12/13/2014   NM             3673.41
+          10.79         3715.20       -31.00
+
+948498   11837     WHOLESOME HARDWARE                       DEVELOPMENT      12/13/2014   NO             2411.51
+           1.78         2409.78         3.51
+
+980287   13411     UNITED EQUIPMENT                         DEVELOPMENT      12/13/2014   NO              346.69
+          58.11          365.39        39.41
+
+927842   13373     LILYDALE HARDWARE                        DEVELOPMENT      12/14/2014   NO              730.69
+          15.13          764.41       -18.59
+
+998022   10001     BOLTON DISTRIBUTION                      DEVELOPMENT      12/14/2014   NO              704.42
+          72.89          646.00       131.31
+
+907983   14599     US MFG. CORP                             DEVELOPMENT      12/05/2014   KA              856.22
+          33.07          901.00       -11.71
+
+130418   13453     PAINT AND WALLS UNLIMITED                DEVELOPMENT      12/26/2014   GC             6063.56
+          54.84         6083.77        34.63
+
+988828   13373     LILYDALE HARDWARE                        FABRICATION      12/26/2014   RW             4711.53
+          81.03         4748.28        44.28
+
+461716   13373     LILYDALE HARDWARE                        DEVELOPMENT      12/26/2014   NO              267.50
+          83.49          242.35       108.64
+
+965744   11475     TRIATHALON GROUP                         MACHINING        12/26/2014   RW             3865.58
+          48.21         3839.91        73.88
+
+919191   11182     INDUSTRIAL EQUIPMENT CO-OP               DEVELOPMENT      12/26/2014   NO              412.76
+          31.25          432.55        11.46
+
+973721   11182     INDUSTRIAL EQUIPMENT CO-OP               DEVELOPMENT      12/27/2014   KA             1719.84
+          66.21         1748.81        37.24
+
+972628   12433     KORO INTERNATIONAL                       FABRICATION      12/27/2014   RW             1471.46
+          26.80         1506.08        -7.82
+
+929292   10534     LASER INDUSTRIES                         DEVELOPMENT      12/28/2014   KG             5082.02
+          13.62         5045.27        50.37
+
+953646   12433     KORO INTERNATIONAL                       FABRICATION      12/28/2014   RW             4069.59
+         110.90         4045.69       134.80
+
+
+
+Page ...  13                                         07/20/2014  15:34:39
+SYSINI:OU/T
+
+                                              MYSTICAL INDUSTRIES                                               
+                                        PURCHASING REPORT: 12/2013 - 12/2014                                         
+
+PONUM    VENDOR    SUPPLIER                                 DIVISION         PO DATE      PURCH          DEPOSIT 
+         NUMBER                                                                           REP                    
+          OTHER        CONTRACT     VARIANCE
+       PAYMENTS          AMOUNT             
+
+987272   13373     LILYDALE HARDWARE                        FABRICATION      12/28/2014   RW             2031.68
+         109.97         2061.01        80.64
+
+985367   13373     LILYDALE HARDWARE                        FABRICATION      12/29/2014   RW              681.07
+          11.36          693.81        -1.38
+
+939393   12433     KORO INTERNATIONAL                       FABRICATION      12/29/2014   KM             2010.12
+          17.79         2041.26       -13.35
+
+904872   12433     KORO INTERNATIONAL                       FABRICATION      12/29/2014   RW              991.44
+          52.57         1001.21        42.80
+
+992729   13373     LILYDALE HARDWARE                        FABRICATION      12/30/2014   RW              630.41
+         109.89          603.16       137.14
+
+974355   14913     PROMAC SERVICES                          DECORATION       12/30/2014   RJ             4311.41
+          69.77         4374.31         6.87
+
+997643   13373     LILYDALE HARDWARE                        FABRICATION      12/30/2014   RW             4254.09
+          66.98         4160.76       160.31
+
+975353   12433     KORO INTERNATIONAL                       FABRICATION      12/31/2014   RW             4376.84
+          30.74         4455.29       -47.71
+
+908483   12433     KORO INTERNATIONAL                       FABRICATION      12/31/2014   RW             2967.30
+         107.77         2943.89       131.18
+
+927298   13373     LILYDALE HARDWARE                        FABRICATION      01/01/2014   RW             5037.24
+          36.16         5027.58        45.82
+
+976544   13373     LILYDALE HARDWARE                        FABRICATION      01/01/2014   RW              844.25
+          33.38          860.39        17.24
+
+958648   12433     KORO INTERNATIONAL                       FABRICATION      01/01/2014   RJ             2986.07
+          42.12         2956.64        71.55
+
+972288   12433     KORO INTERNATIONAL                       FABRICATION      01/02/2014   RW             3726.25
+          36.62         3692.49        70.38
+
+987927   13373     LILYDALE HARDWARE                        FABRICATION      01/03/2014   RW             6011.58
+          40.87         6017.25        35.20
+
+937292   12433     KORO INTERNATIONAL                       FABRICATION      01/04/2014   RW             1867.51
+          70.67         1855.46        82.72
+
+
+
+Page ...  14                                         07/20/2014  15:34:39
+SYSINI:OU/T
+
+                                              MYSTICAL INDUSTRIES                                               
+                                        PURCHASING REPORT: 12/2013 - 12/2014                                         
+
+PONUM    VENDOR    SUPPLIER                                 DIVISION         PO DATE      PURCH          DEPOSIT 
+         NUMBER                                                                           REP                    
+          OTHER        CONTRACT     VARIANCE
+       PAYMENTS          AMOUNT             
+
+928391   13373     LILYDALE HARDWARE                        FABRICATION      01/05/2014   RW             4532.30
+          96.10         4549.31        79.09
+
+928929   12433     KORO INTERNATIONAL                       FABRICATION      01/06/2014   RW             2201.87
+          90.25         2293.35        -1.23
+
+438952   12636     HERITAGE CASES                           DEVELOPMENT      01/13/2014   NC             2128.42
+          85.13         2079.56       133.99
+
+454657   11475     TRIATHALON GROUP                         DEVELOPMENT      01/13/2014   KM             4273.62
+          38.60         4296.22        16.00
+
+395372   10025     MITCHELL ENT.                            DEVELOPMENT      01/13/2014   NM             3481.55
+          25.60         3487.36        19.79
+
+778777   12433     KORO INTERNATIONAL                       FABRICATION      01/13/2014   NO             1878.37
+          52.96         1906.84        24.49
+
+481701   10001     BOLTON DISTRIBUTION                      DEVELOPMENT      01/18/2014   GC             4741.29
+          58.11         4783.74        15.66
+
+443811   14090     O'CONNER AND DAUGHTERS                   DEVELOPMENT      02/05/2014   CC              405.35
+         112.35          466.07        51.63
+
+910384   12433     KORO INTERNATIONAL                       FABRICATION      02/06/2014   CW             5493.46
+           1.30         5552.43       -57.67
+
+984992   13373     LILYDALE HARDWARE                        FABRICATION      02/07/2014   GC             3034.20
+          81.19         3051.43        63.96
+
+974820   10656     CARR INTERNATIONAL                       DEVELOPMENT      02/08/2014   GW             2079.40
+         105.59         2055.35       129.64
+
+938322   10656     CARR INTERNATIONAL                       DEVELOPMENT      02/09/2014   NO             4374.74
+          65.40         4341.46        98.68
+
+933272   12130     STROUD & SONS                            DEVELOPMENT      02/10/2014   NO             2820.21
+          12.30         2816.39        16.12
+
+983932   10656     CARR INTERNATIONAL                       DEVELOPMENT      02/11/2014   NO             1147.26
+          34.73         1189.95        -7.96
+
+908872   14711     WINSTON MFG.                             DEVELOPMENT      02/12/2014   NO             1885.51
+          92.65         1830.98       147.18
+
+
+
+Page ...  15                                         07/20/2014  15:34:39
+SYSINI:OU/T
+
+                                              MYSTICAL INDUSTRIES                                               
+                                        PURCHASING REPORT: 12/2013 - 12/2014                                         
+
+PONUM    VENDOR    SUPPLIER                                 DIVISION         PO DATE      PURCH          DEPOSIT 
+         NUMBER                                                                           REP                    
+          OTHER        CONTRACT     VARIANCE
+       PAYMENTS          AMOUNT             
+
+982917   12230     ELBOWE & FOOTE SALES                     DEVELOPMENT      02/13/2014   NO             1895.11
+          31.69         1957.18       -30.38
+
+130311   13423     KAREN'S FACTORY                          DEVELOPMENT      03/18/2014   GW             5433.10
+          61.82         5372.02       122.90
+
+476528   12433     KORO INTERNATIONAL                       DEVELOPMENT      03/18/2014   NO             1444.60
+          83.19         1384.76       143.03
+
+395897   14599     US MFG. CORP                             DEVELOPMENT      03/22/2014   NS             3565.50
+          19.80         3535.41        49.89
+
+395452   11922     DIDA LIMITED                             DEVELOPMENT      04/08/2014   NM             5560.60
+         105.24         5547.74       118.10
+
+395556   10534     LASER INDUSTRIES                         DEVELOPMENT      04/18/2014   NM             1340.81
+          48.31         1353.25        35.87
+
+976336   13423     KAREN'S FACTORY                          DEVELOPMENT      04/21/2014   AR             2232.23
+          14.87         2224.58        22.52
+
+903936   13411     UNITED EQUIPMENT                         DEVELOPMENT      04/21/2014   NO              290.15
+         108.45          327.01        71.59
+
+444935   12576     TIMMY'S TOOLS                            DEVELOPMENT      04/21/2014   NO              993.24
+          31.87         1047.66       -22.55
+
+487263   13864     BINFORD TOOLS                            DEVELOPMENT      04/21/2014   KM             5046.21
+          43.52         4998.59        91.14
+
+909282   10001     BOLTON DISTRIBUTION                      DEVELOPMENT      04/22/2014   KA             3898.33
+          60.64         3958.07         0.90
+
+923637   11247     MERIDIAN INDUSTRIES                      DEVELOPMENT      04/22/2014   AR              201.53
+          72.03          212.56        61.00
+
+976321   11922     DIDA LIMITED                             DEVELOPMENT      04/23/2014   AR              893.51
+          15.63          952.90       -43.76
+
+901929   14599     US MFG. CORP                             DEVELOPMENT      04/23/2014   KG             1514.72
+          56.90         1580.15        -8.53
+
+964742   10025     MITCHELL ENT.                            DEVELOPMENT      04/24/2014   AR             2820.73
+          38.25         2867.48        -8.50
+
+
+
+Page ...  16                                         07/20/2014  15:34:39
+SYSINI:OU/T
+
+                                              MYSTICAL INDUSTRIES                                               
+                                        PURCHASING REPORT: 12/2013 - 12/2014                                         
+
+PONUM    VENDOR    SUPPLIER                                 DIVISION         PO DATE      PURCH          DEPOSIT 
+         NUMBER                                                                           REP                    
+          OTHER        CONTRACT     VARIANCE
+       PAYMENTS          AMOUNT             
+
+961634   11837     WHOLESOME HARDWARE                       DEVELOPMENT      04/24/2014   KM             4265.71
+           1.99         4262.68         5.02
+
+907471   13373     LILYDALE HARDWARE                        DEVELOPMENT      04/25/2014   NS             4031.73
+          54.78         4002.15        84.36
+
+927484   12701     HARRIS PROJECTS                          DEVELOPMENT      04/25/2014   AR             1915.09
+           5.32         1930.57       -10.16
+
+907607   13373     LILYDALE HARDWARE                        FABRICATION      04/26/2014   AR             3880.26
+          90.54         3878.67        92.13
+
+987937   12433     KORO INTERNATIONAL                       DEVELOPMENT      04/26/2014   NC             5058.03
+           6.18         5026.69        37.52
+
+977372   13373     LILYDALE HARDWARE                        DEVELOPMENT      04/27/2014   NC             4202.01
+          88.49         4214.69        75.81
+
+970860   14913     PROMAC SERVICES                          DECORATION       04/27/2014   CC             5055.21
+          11.77         4997.87        69.11
+
+926438   12433     KORO INTERNATIONAL                       DEVELOPMENT      04/28/2014   NC             4765.83
+          62.12         4806.25        21.70
+
+928320   12433     KORO INTERNATIONAL                       FABRICATION      04/30/2014   NO             1227.16
+          67.92         1224.28        70.80
+
+938738   13373     LILYDALE HARDWARE                        FABRICATION      05/01/2014   AR             3335.41
+          78.49         3306.71       107.19
+
+987635   14913     PROMAC SERVICES                          DECORATION       05/02/2014   AR             5552.08
+          26.09         5593.28       -15.11
+
+997814   12433     KORO INTERNATIONAL                       FABRICATION      05/04/2014   AR             4136.28
+         101.82         4159.90        78.20
+
+976856   10001     BOLTON DISTRIBUTION                      DEVELOPMENT      05/05/2014   AR             5499.09
+          62.98         5477.56        84.51
+
+976567   14599     US MFG. CORP                             DEVELOPMENT      05/06/2014   AR              965.35
+          33.52          922.80        76.07
+
+976545   11837     WHOLESOME HARDWARE                       DEVELOPMENT      05/07/2014   AR             2999.73
+          55.79         2968.79        86.73
+
+
+
+Page ...  17                                         07/20/2014  15:34:39
+SYSINI:OU/T
+
+                                              MYSTICAL INDUSTRIES                                               
+                                        PURCHASING REPORT: 12/2013 - 12/2014                                         
+
+PONUM    VENDOR    SUPPLIER                                 DIVISION         PO DATE      PURCH          DEPOSIT 
+         NUMBER                                                                           REP                    
+          OTHER        CONTRACT     VARIANCE
+       PAYMENTS          AMOUNT             
+
+923452   10726     LARSON SUPPLIES                          DEVELOPMENT      05/08/2014   AR             5447.69
+          86.54         5488.56        45.67
+
+443392   10559     ARIZONA INDUSTRIES                       DEVELOPMENT      05/08/2014   GW              574.27
+          20.42          572.96        21.73
+
+975733   13453     PAINT AND WALLS UNLIMITED                DEVELOPMENT      05/09/2014   AR              401.33
+          92.30          352.06       141.57
+
+771901   11435     GROUP SERVICES                           DEVELOPMENT      05/09/2014   NO             4460.73
+           9.03         4442.68        27.08
+
+717717   14299     STEEL CASE MANUFACTURING                 DEVELOPMENT      05/10/2014   NO             5601.14
+          41.05         5620.36        21.83
+
+781817   13928     LIBERTY TRADING                          DEVELOPMENT      05/11/2014   NO             2455.40
+          62.52         2478.56        39.36
+
+728181   10951     HYATT INDUSTRIES                         DEVELOPMENT      05/12/2014   NO             1205.61
+          18.63         1232.63        -8.39
+
+859367   12433     KORO INTERNATIONAL                       FABRICATION      06/06/2014   RW             3420.23
+           2.10         3449.32       -26.99
+
+859637   13373     LILYDALE HARDWARE                        FABRICATION      06/07/2014   RW             5691.58
+          88.25         5683.70        96.13
+
+393183   10534     LASER INDUSTRIES                         DEVELOPMENT      06/20/2014   CC             4944.35
+          52.40         4960.52        36.23
+
+752307   12433     KORO INTERNATIONAL                       FABRICATION      06/21/2014   RW             1347.18
+          30.49         1330.03        47.64
+
+752307   13373     LILYDALE HARDWARE                        FABRICATION      06/22/2014   RW             2588.69
+          57.02         2584.78        60.93
+
+842107   12433     KORO INTERNATIONAL                       FABRICATION      06/28/2014   RW             2311.13
+          97.86         2321.72        87.27
+
+842107   13373     LILYDALE HARDWARE                        FABRICATION      06/29/2014   RW             1666.65
+         104.22         1700.17        70.70
+
+563627   11475     TRIATHALON GROUP                         MACHINING        07/06/2014   RW              388.28
+          21.50          457.76       -47.98
+
+
+
+Page ...  18                                         07/20/2014  15:34:39
+SYSINI:OU/T
+
+                                              MYSTICAL INDUSTRIES                                               
+                                        PURCHASING REPORT: 12/2013 - 12/2014                                         
+
+PONUM    VENDOR    SUPPLIER                                 DIVISION         PO DATE      PURCH          DEPOSIT 
+         NUMBER                                                                           REP                    
+          OTHER        CONTRACT     VARIANCE
+       PAYMENTS          AMOUNT             
+
+395527   12230     ELBOWE & FOOTE SALES                     DEVELOPMENT      07/08/2014   CR             5349.17
+          46.26         5327.89        67.54
+
+893627   14913     PROMAC SERVICES                          DECORATION       07/13/2014   RW              263.73
+          34.10          221.46        76.37
+
+023627   12433     KORO INTERNATIONAL                       FABRICATION      07/14/2014   RW             5914.21
+          51.53         5948.37        17.37
+
+023627   13373     LILYDALE HARDWARE                        FABRICATION      07/15/2014   RW              960.71
+          65.19          970.40        55.50
+
+
+

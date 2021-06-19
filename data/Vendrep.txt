@@ -1,0 +1,194 @@
+Page ...   1                                         07/26/2014  11:11:03
+UA/334/78A
+
+                                                              Mystic Industries                                                              
+                                                      Purchase Order Report by Supplier                                                      
+                                                                  July 2014                                                                  
+
+Vendor  Supplier                      PO       Issue Date   Division          Agent       Deposit        Other         Contract      Variance
+Number                                Number                                                          Payments           Amount              
+-----   ----------------------------  ------   ----------   ----------------- --   -------------   ----------   --------------    ----------
+10001   BOLTON DISTRIBUTION           392507   02/18/2013   DEVELOPMENT       KM        4,927.04        78.93         4,906.44         99.53 
+                                      960469   11/16/2013   DEVELOPMENT       NC        2,193.17        18.57         2,178.55         33.19 
+                                      937382   12/11/2013   DEVELOPMENT       NO        1,073.09        83.94         1,017.58        139.45 
+                                      998022   12/14/2013   DEVELOPMENT       NO          704.42        72.89           646.00        131.31 
+                                      481701   01/18/2014   DEVELOPMENT       GC        4,741.29        58.11         4,783.74         15.66 
+                                      909282   04/22/2014   DEVELOPMENT       KA        3,898.33        60.64         3,958.07          0.90 
+                                      976856   05/05/2014   DEVELOPMENT       AR        5,499.09        62.98         5,477.56         84.51 
+
+                                                    TOTAL FOR: BOLTON DISTRIBUTION     23,036.43       436.06        22,967.94        504.55 
+
+
+10025   MITCHELL ENT.                 989860   10/01/2013   DEVELOPMENT       KA        2,227.02       101.56         2,260.25         68.33 
+                                      395372   01/13/2014   DEVELOPMENT       NM        3,481.55        25.60         3,487.36         19.79 
+                                      964742   04/24/2014   DEVELOPMENT       AR        2,820.73        38.25         2,867.48         (8.50)
+
+                                                           TOTAL FOR: MITCHELL ENT.     8,529.30       165.41         8,615.09         79.62 
+
+
+10134   STARS TRADING                 395349   03/15/2013   DEVELOPMENT       KA          183.31       101.70           236.23         48.78 
+                                      413148   06/15/2013   DEVELOPMENT       CW        1,681.24         9.89         1,752.65        (61.52)
+                                      928708   10/05/2013   DEVELOPMENT       NC        3,545.85        31.07         3,604.02        (27.10)
+                                      999902   11/25/2013   DEVELOPMENT       NO        2,580.65        40.04         2,646.40        (25.71)
+                                      934719   12/09/2013   DEVELOPMENT       NO        2,787.26        74.35         2,739.22        122.39 
+                                      987404   12/12/2013   DEVELOPMENT       NO        4,562.44        39.37         4,543.11         58.70 
+
+                                                           TOTAL FOR: STARS TRADING    15,340.75       296.42        15,521.63        115.54 
+
+
+10448   PACRIM ENGINEERED PRODUCTS    428283   03/15/2013   DEVELOPMENT       KM        4,434.52        44.47         4,445.04         33.95 
+                                      434357   11/22/2013   DEVELOPMENT       AR        5,082.22        40.79         5,120.09          2.92 
+                                      938383   11/23/2013   DEVELOPMENT       AR        4,294.43        63.40         4,284.53         73.30 
+                                      948483   12/08/2013   DEVELOPMENT       GW        5,647.44       112.30         5,694.17         65.57 
+
+                                              TOTAL FOR: PACRIM ENGINEERED PRODUCTS    19,458.61       260.96        19,543.83        175.74 
+
+
+10534   LASER INDUSTRIES              392533   07/26/2013   DEVELOPMENT       NM        4,193.33        38.75         4,180.40         51.68 
+                                      978663   09/24/2013   DEVELOPMENT       GW        3,825.11        80.64         3,794.22        111.53 
+
+Page ...   2                                         07/26/2014  11:11:03
+UA/334/78A
+
+                                                              Mystic Industries                                                              
+                                                      Purchase Order Report by Supplier                                                      
+                                                                  July 2014                                                                  
+
+Vendor  Supplier                      PO       Issue Date   Division          Agent       Deposit        Other         Contract      Variance
+Number                                Number                                                          Payments           Amount              
+-----   ----------------------------  ------   ----------   ----------------- --   -------------   ----------   --------------    ----------
+10534   LASER INDUSTRIES              942808   10/03/2013   DEVELOPMENT       KM          516.12       108.33           491.43        133.02 
+                                      949808   10/04/2013   DEVELOPMENT       NS        4,322.23        89.14         4,344.11         67.26 
+                                      980083   11/24/2013   DEVELOPMENT       NO        4,704.66        41.72         4,731.52         14.86 
+                                      982848   12/08/2013   DEVELOPMENT       GW        2,233.08        52.72         2,171.46        114.34 
+                                      929292   12/28/2013   DEVELOPMENT       KG        5,082.02        13.62         5,045.27         50.37 
+                                      395556   04/18/2014   DEVELOPMENT       NM        1,340.81        48.31         1,353.25         35.87 
+                                      393183   06/20/2014   DEVELOPMENT       CC        4,944.35        52.40         4,960.52         36.23 
+
+                                                        TOTAL FOR: LASER INDUSTRIES    31,161.71       525.63        31,072.18        615.16 
+
+
+10559   ARIZONA INDUSTRIES            492028   06/19/2013   DEVELOPMENT       AR        4,727.80        87.04         4,760.29         54.55 
+                                      735393   11/27/2013   DEVELOPMENT       CR        3,490.60        26.23         3,483.18         33.65 
+                                      936309   11/27/2013   DEVELOPMENT       AR        2,293.62        51.69         2,217.02        128.29 
+                                      443392   05/08/2014   DEVELOPMENT       GW          574.27        20.42           572.96         21.73 
+
+                                                     TOTAL FOR: ARIZONA INDUSTRIES     11,086.29       185.38        11,033.45        238.22 
+
+
+10656   CARR INTERNATIONAL            394877   12/18/2012   DEVELOPMENT       RJ        5,352.87        32.64         5,404.40        (18.89)
+                                      307561   01/10/2013   DEVELOPMENT       RJ        3,776.21        60.79         3,753.62         83.38 
+                                      396716   02/25/2013   DEVELOPMENT       RN          642.05       107.96           566.32        183.69 
+                                      977647   09/16/2013   DEVELOPMENT       RZ        2,712.21        48.97         2,698.78         62.40 
+                                      986632   09/17/2013   DEVELOPMENT       CR        3,445.28        36.10         3,462.69         18.69 
+                                      976559   09/19/2013   DEVELOPMENT       CR        5,424.34        65.53         5,434.35         55.52 
+                                      974820   02/08/2014   DEVELOPMENT       GW        2,079.40       105.59         2,055.35        129.64 
+                                      938322   02/09/2014   DEVELOPMENT       NO        4,374.74        65.40         4,341.46         98.68 
+                                      983932   02/11/2014   DEVELOPMENT       NO        1,147.26        34.73         1,189.95         (7.96)
+
+                                                     TOTAL FOR: CARR INTERNATIONAL     28,954.36       557.71        28,906.92        605.15 
+
+
+10720   PANTAGES INC.                 467643   11/03/2013   DEVELOPMENT       KM        5,638.49        34.49         5,696.59        (23.61)
+                                      947498   12/05/2013   DEVELOPMENT       CW        1,414.51        91.40         1,411.53         94.38 
+
+                                                           TOTAL FOR: PANTAGES INC.     7,053.00       125.89         7,108.12         70.77 
+
+
+Page ...   3                                         07/26/2014  11:11:03
+UA/334/78A
+
+                                                              Mystic Industries                                                              
+                                                      Purchase Order Report by Supplier                                                      
+                                                                  July 2014                                                                  
+
+Vendor  Supplier                      PO       Issue Date   Division          Agent       Deposit        Other         Contract      Variance
+Number                                Number                                                          Payments           Amount              
+-----   ----------------------------  ------   ----------   ----------------- --   -------------   ----------   --------------    ----------
+12248   GLOBAL TRADE HARDWARE         417372   12/18/2012   DEVELOPMENT       AR        1,548.13        48.14         1,508.68         87.59 
+                                      739304   12/03/2013   DEVELOPMENT       GC        2,387.43        85.91         2,429.88         43.46 
+                                      972729   12/03/2013   DEVELOPMENT       AR        3,415.15       106.34         3,428.03         93.46 
+
+                                                   TOTAL FOR: GLOBAL TRADE HARDWARE     7,350.71       240.39         7,366.59        224.51 
+
+
+12289   MGMT MFG.                     481283   01/10/2013   DEVELOPMENT       AR        5,583.07        98.03         5,570.27        110.83 
+                                      987422   12/04/2013   DEVELOPMENT       CC          196.31        62.11           189.61         68.81 
+                                      782332   12/04/2013   DEVELOPMENT       GW        6,089.05        29.72         6,088.55         30.22 
+
+                                                               TOTAL FOR: MGMT MFG.    11,868.43       189.86        11,848.43        209.86 
+
+
+12433   KORO INTERNATIONAL            409898   01/10/2013   DEVELOPMENT       NO        5,935.40        79.75         6,012.58          2.57 
+                                      437437   02/25/2013   DEVELOPMENT       KA        1,980.55        30.36         1,992.20         18.71 
+                                      123457   05/10/2013   FABRICATION       RW          190.70        50.73           116.03        125.40 
+                                      145687   05/17/2013   FABRICATION       RW        4,633.04        60.33         4,634.49         58.88 
+                                      742367   05/30/2013   FABRICATION       RW        5,183.56        70.16         5,143.35        110.37 
+                                      963427   06/12/2013   FABRICATION       RW        2,370.56       112.17         2,349.16        133.57 
+                                      869107   07/04/2013   FABRICATION       RW        4,890.68        63.38         4,879.07         74.99 
+                                      823507   07/11/2013   FABRICATION       RW        3,876.79        80.53         3,854.91        102.41 
+                                      708272   11/08/2013   FABRICATION       NC        5,264.24        17.80         5,195.46         86.58 
+                                      728272   11/09/2013   FABRICATION       KA        5,133.47        46.99         5,126.00         54.46 
+                                      780227   11/09/2013   FABRICATION       RW          752.78        55.38           712.15         96.01 
+                                      726532   11/10/2013   FABRICATION       NO        3,466.24        36.30         3,463.12         39.42 
+                                      738822   11/11/2013   FABRICATION       KM        4,670.47        99.34         4,715.41         54.40 
+                                      700018   11/12/2013   FABRICATION       RW        2,952.10        51.76         2,930.27         73.59 
+                                      702982   11/13/2013   FABRICATION       RW        1,341.55        96.12         1,369.35         68.32 
+                                      773022   11/13/2013   FABRICATION       NC        5,420.67        30.41         5,335.82        115.26 
+                                      782752   11/23/2013   FABRICATION       RJ        1,771.30        57.17         1,749.41         79.06 
+                                      987487   11/28/2013   DEVELOPMENT       KA        3,592.24         9.71         3,582.00         19.95 
+
+Page ...   4                                         07/26/2014  11:11:03
+UA/334/78A
+
+                                                              Mystic Industries                                                              
+                                                      Purchase Order Report by Supplier                                                      
+                                                                  July 2014                                                                  
+
+Vendor  Supplier                      PO       Issue Date   Division          Agent       Deposit        Other         Contract      Variance
+Number                                Number                                                          Payments           Amount              
+-----   ----------------------------  ------   ----------   ----------------- --   -------------   ----------   --------------    ----------
+12433   KORO INTERNATIONAL            974723   11/30/2013   DEVELOPMENT       KM        3,038.18        17.40         3,066.39        (10.81)
+                                      977482   12/02/2013   DEVELOPMENT       KM        1,918.52        10.91         1,873.66         55.77 
+                                      948749   12/09/2013   FABRICATION       KA        4,112.72        64.65         4,116.04         61.33 
+                                      902438   12/11/2013   FABRICATION       KA        1,148.40        72.38         1,210.36         10.42 
+                                      972628   12/27/2013   FABRICATION       RW        1,471.46        26.80         1,506.08         (7.82)
+                                      953646   12/28/2013   FABRICATION       RW        4,069.59       110.90         4,045.69        134.80 
+                                      939393   12/29/2013   FABRICATION       KM        2,010.12        17.79         2,041.26        (13.35)
+                                      904872   12/29/2013   FABRICATION       RW          991.44        52.57         1,001.21         42.80 
+                                      975353   12/31/2013   FABRICATION       RW        4,376.84        30.74         4,455.29        (47.71)
+                                      908483   12/31/2013   FABRICATION       RW        2,967.30       107.77         2,943.89        131.18 
+                                      958648   01/01/2014   FABRICATION       RJ        2,986.07        42.12         2,956.64         71.55 
+                                      972288   01/02/2014   FABRICATION       RW        3,726.25        36.62         3,692.49         70.38 
+                                      937292   01/04/2014   FABRICATION       RW        1,867.51        70.67         1,855.46         82.72 
+                                      928929   01/06/2014   FABRICATION       RW        2,201.87        90.25         2,293.35         (1.23)
+                                      778777   01/13/2014   FABRICATION       NO        1,878.37        52.96         1,906.84         24.49 
+                                      910384   02/06/2014   FABRICATION       CW        5,493.46         1.30         5,552.43        (57.67)
+                                      476528   03/18/2014   DEVELOPMENT       NO        1,444.60        83.19         1,384.76        143.03 
+                                      987937   04/26/2014   DEVELOPMENT       NC        5,058.03         6.18         5,026.69         37.52 
+                                      926438   04/28/2014   DEVELOPMENT       NC        4,765.83        62.12         4,806.25         21.70 
+                                      928320   04/30/2014   FABRICATION       NO        1,227.16        67.92         1,224.28         70.80 
+                                      997814   05/04/2014   FABRICATION       AR        4,136.28       101.82         4,159.90         78.20 
+                                      859367   06/06/2014   FABRICATION       RW        3,420.23         2.10         3,449.32        (26.99)
+                                      752307   06/21/2014   FABRICATION       RW        1,347.18        30.49         1,330.03         47.64 
+                                      842107   06/28/2014   FABRICATION       RW        2,311.13        97.86         2,321.72         87.27 
+                                      023627   07/14/2014   FABRICATION       RW        5,914.21        51.53         5,948.37         17.37 
+
+                                                  TOTAL FOR: KORO INTERNATIONAL       137,309.09     2,357.43       137,329.18      2,337.34 
+
+
+12576   TIMMY'S TOOLS                 990028   11/22/2013   DEVELOPMENT       AR        5,952.13       110.22         5,975.60         86.75 
+                                      463738   11/22/2013   DEVELOPMENT       KM        4,630.09        46.36         4,702.64        (26.19)
+                                      947283   12/07/2013   DEVELOPMENT       GC        1,131.74        54.92         1,081.25        105.41 
+                                      444935   04/21/2014   DEVELOPMENT       NO          993.24        31.87         1,047.66        (22.55)
+
+                                                          TOTAL FOR: TIMMY'S TOOLS     12,707.20       243.37        12,807.15        143.42 
+
+13411   UNITED EQUIPMENT              398795   03/21/2013   DEVELOPMENT       KG        2,601.86        36.76         2,608.26         30.36 
+                                      498101   06/16/2013   DEVELOPMENT       CW        5,373.57        97.31         5,450.94         19.94 
+                                      976608   10/06/2013   DEVELOPMENT       NC        4,059.11        88.59         4,140.55          7.15 
+                                      987382   12/10/2013   DEVELOPMENT       NO        3,017.65         9.29         3,035.80         (8.86)
+                                      980287   12/13/2013   DEVELOPMENT       NO          346.69        58.11           365.39         39.41 
+                                      903936   04/21/2014   DEVELOPMENT       NO          290.15       108.45           327.01         71.59 
+
+                                                       TOTAL FOR: UNITED EQUIPMENT     15,689.03       398.51        15,927.95        159.59 
