@@ -32,14 +32,14 @@ Untuk koneksi dari ACL ke SQL Server, dapat dilakukan tahap-tahap berikut :
 </a>
   </kbd>
   <br>
-2. Akan terlihat jendela, pilih **New Connection** . Pilih **ODBC Driver 17 for SQL Server**<br>
-3. Akan muncul jendela, masukkan semua informasi yang dibutuhkan, nama server, username dan password. Klik **Ok**.<br>
+ 2. Akan terlihat jendela, pilih **New Connection** . Pilih **ODBC Driver 17 for SQL Server**<br>.
+ 3. Akan muncul jendela, masukkan semua informasi yang dibutuhkan, nama server, username dan password. Klik **Ok**.<br>
 <kbd>
 <a href="url">
   <img src="https://github.com/ansyaku/tabk.acl/blob/main/img/SQL2.png" >
 </a>
-  </kbd>
-  4. Akan muncul jendela, dari database yang ada pilih tabel-tabel mana saja yang akan diimpor, selanjutnya lakukan pengaturan yang sesuai dengan kebutuhan.<br>
+  </kbd><br>
+ 4. Akan muncul jendela, dari database yang ada pilih tabel-tabel mana saja yang akan diimpor, selanjutnya lakukan pengaturan yang sesuai dengan kebutuhan.<br>
 <kbd>
 <a href="url">
   <img src="https://github.com/ansyaku/tabk.acl/blob/main/img/SQL3.png" >
