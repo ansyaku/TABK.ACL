@@ -18,17 +18,50 @@ Untuk mengimpor data, ACL dapat menarik data yang berasal dari beragam database/
 15. SQL Server Native Client (2012)- can be used for both SQL OLE DB provider and SQL ODBC driver for Windows
 16. SQL Server (2000 - lama) does not support some of the new features in SQL Server 2005 and above. 
 
+## Koneksi ke File Excel
+Untuk koneksi ke file XLS, atua XLSX, bisa dilakukan dengan tahap-tahap berikut :
+* Toolbar **Import** >> **File**<br><br>
+  ![SQL1](https://github.com/ansyaku/tabk.acl/blob/main/img/SQL1.png)
+  <br><br>
+* Pilih Excel
+  <br><br>
+  ![Excel1](https://github.com/ansyaku/tabk.acl/blob/main/img/Excel1.png)
+  <br><br>
 
-## Koneksi ke File
+* Pilih
+  <br><br>
+  ![Excel2](https://github.com/ansyaku/tabk.acl/blob/main/img/Excel2.png)
+  <br><br>
+
+* Selanjutnya akan muncul resume terkait dengan pilihan yang telah kita buat. Apabila dirasa sudah cocok, maka dapat dilanjutkan dengan mengklik **Finish**.
+## Koneksi ke File CSV atau TXT
+Untuk koneksi ke file CSV atau TXT, bisa dilakukan dengan tahap-tahap berikut :
+Untuk koneksi dari ACL ke SQL Server, dapat dilakukan tahap-tahap berikut :
+* Toolbar **Import** >> **File**<br><br>
+  ![SQL1](https://github.com/ansyaku/tabk.acl/blob/main/img/SQL1.png)
+  <br><br>
+* Pilih from PC
+* Pilih delimited text file
+* Definsikan pemisah, apakah koma
+* Definsikan kolom
+* Edit bila ada yang perlu diedit.
+* Finish
 
 ## Koneksi SQL Server
 ***
 
 Untuk koneksi dari ACL ke SQL Server, dapat dilakukan tahap-tahap berikut :
-1. Toolbar **Import** >> **Database and applications**
-2. Akan terlihat jendela, pilih **New Connection** 
-3. Pilih **ODBC Driver 17 for SQL Server**
-4. Akan muncul jendela, masukkan semua informasi yang dibutuhkan, nama server, username dan password. Klik **Ok**.
-5. Akan muncul jendela, dari database yang ada pilih tabel-tabel mana saja yang akan diimpor, selanjutnya lakukan pengaturan yang sesuai dengan kebutuhan.
-6. Klik **Save**
-7. Data akan muncul pada ACL anda.
+* Toolbar **Import** >> **Database and applications**<br><br>
+  ![SQL1](https://github.com/ansyaku/tabk.acl/blob/main/img/SQL1.png)
+  <br><br>
+* Akan terlihat jendela, pilih **New Connection** . Pilih **ODBC Driver 17 for SQL Server**<br>.
+* Akan muncul jendela, masukkan semua informasi yang dibutuhkan, nama server, username dan password. Klik **Ok**.
+  <br><br>
+  ![SQL1](https://github.com/ansyaku/tabk.acl/blob/main/img/SQL2.png)  
+  <br><br>
+* Akan muncul jendela, dari database yang ada pilih tabel-tabel mana saja yang akan diimpor, selanjutnya lakukan pengaturan yang sesuai dengan kebutuhan.
+  <br><br>
+  ![SQL1](https://github.com/ansyaku/tabk.acl/blob/main/img/SQL3.png)
+  <br><br>
+* Klik **Save**
+* Data akan muncul pada ACL anda.
