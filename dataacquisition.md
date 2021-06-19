@@ -26,12 +26,19 @@ Untuk mengimpor data, ACL dapat menarik data yang berasal dari beragam database/
 
 Untuk koneksi dari ACL ke SQL Server, dapat dilakukan tahap-tahap berikut :
 1. Toolbar **Import** >> **Database and applications**<br>
-![Koneksi Login](https://github.com/ansyaku/tabk.acl/blob/main/img/SQL1.png)
-
+<kbd>
+<a href="url">
+  <img src="https://github.com/ansyaku/tabk.acl/blob/main/img/SQL1.png" >
+</a>
+  </kbd>
 2. Akan terlihat jendela, pilih **New Connection** . Pilih **ODBC Driver 17 for SQL Server**<br>
 3. Akan muncul jendela, masukkan semua informasi yang dibutuhkan, nama server, username dan password. Klik **Ok**.<br>
-![Koneksi Login](https://github.com/ansyaku/tabk.acl/blob/main/img/SQL2.png)
-4. Akan muncul jendela, dari database yang ada pilih tabel-tabel mana saja yang akan diimpor, selanjutnya lakukan pengaturan yang sesuai dengan kebutuhan.<br>
+<kbd>
+<a href="url">
+  <img src="https://github.com/ansyaku/tabk.acl/blob/main/img/SQL2.png" >
+</a>
+  </kbd>
+  4. Akan muncul jendela, dari database yang ada pilih tabel-tabel mana saja yang akan diimpor, selanjutnya lakukan pengaturan yang sesuai dengan kebutuhan.<br>
 <kbd>
 <a href="url">
   <img src="https://github.com/ansyaku/tabk.acl/blob/main/img/SQL3.png" >
