@@ -351,34 +351,24 @@ Untuk numerik
 Field names	
 You must specify a field name to search in, and it must be the physical field name in the table layout, not the display name in the table view.
 
-Tip
+**Notes:** <br>
+Untuk melihat nama fisik dari sebuah kolom, klik kanan pada header kolom, kemudian pilih **Properties**.
 
-To see the physical field name, right-click a column header in the table view and select Properties.
-
-Search in more than one field	You can build an expression that searches in more than one field. The easiest way to search across all fields in a record is to search using a function. For more information, see Search and filter using Analytics functions.
+Untuk melakukan pencarian pada lebih dari satu kolom, bisa dilakukan dengan membuat perintah yang melakukan pencarian pada lebuh dari satu kolom. Namun, carra lain untuk melakukannya adalah dengan menggunakan fungsi (Analytics functions).
 Partial matching	Partial matching of search terms is not supported.
-For information about using partial matching, see Search and filter using Analytics functions.
 
-Quotation marks	Text search terms must be enclosed in "quotation marks".
-Back quotes	Datetime search terms must be enclosed in `back quotes`.
-Datetime format	
-Datetime search terms must use YYYYMMDD or YYMMDD format.
-Any time portion must use hhmmss format, and be preceded a single blank space, the letter ‘t’, or the letter ‘T’. For example: `t183000`
-Do not use any separators such as slashes (/) or colons (:) between the individual components of dates or times.
-Operators	For the list of valid operators, see Operators in Analytics expressions.
+Peraturan : <br>
+1. Untuk mencari teks, gunakan petik buka dan petik tutup. Contoh: "Makanan" 
+2. Untuk mencari tanggal, gunakan back quotes. Contoh: '19990530'	Pencarian tanggal harus dalam format YYYYMMDD atau YYMMDD.
+3. Untuk mencari waktu, gunakan format hhmmss dan dimulai dengan satu spasi kosong dan satu huruf ‘t’ atau ‘T’. Misalkan: `t183000`
+4. Jangan gunakan slashes (/) or colons (:) between the individual components of dates or times.
+
 Related fields	To search in a related field you must specify the fully qualified field name: table name.field name.
-Quick search and quick filter
-Quick search and quick filter are two Analytics features that make searching easier by building the search expression for you in the Filter text box.
 
+## Quick search and quick filter
+Quick search and quick filter are two Analytics features that make searching easier by building the search expression for you in the Filter text box.
 Quick search you enter a text term in the Filter text box
 Quick filter you use the mouse to select search criteria
-For more information, see:
-
-Quick searching data in a table
-Quick filtering data in a view
-Global filters (view filters)
-Note
-
 Some limitations exist with quick search and quick filter, which are explained in the topics about these features.
 
 Search using Analytics functions
@@ -395,22 +385,10 @@ You can use an Analytics command, accessed from the main menu, to select the fir
 
 One of the commands allows you to go directly to a specific record number, which can be helpful in the Analytics user interface when navigating large tables.
 
-For more information, see Selecting the first matching record.
-
-
-
-
-
-
-
-
+For more information, see Selecting the first matching record
 Automatic conversion of search term to a filter
 The search term or terms you enter are automatically converted to a global filter that uses the FIND( ) function.
-
 For example, entering casino results in the filter FIND("casino").
-
-
-
 The filter auto-populates the Filter text box, from where you can modify it, if required. For example, you could modify FIND("casino") to limit the search to a specific field: FIND("casino", Merchant).
 
 The filter is also added to the filter history and to the command log, from where you can subsequently reapply it.
@@ -443,6 +421,7 @@ The search is restricted to the field that you specified.
 Note
 
 You must use the physical name of the field, which may not be the same as the display name of the field in the view.
+Untuk melakukan 
 
 To check the physical name, right-click the appropriate column header and select Properties. If necessary, copy the physical name from the text box at the top of the Modify Column dialog box. Do not use the Alternate Column Title.
 
@@ -462,21 +441,13 @@ Search terms
 Return records that contain:
 
 cas
-
 casino
-
 cash
-
 Americas
-
 Lancashire
-
 etcetera . . .
-
 casino
-
 casino
-
 casinos
 
 casino liquor
@@ -812,152 +783,84 @@ Tip
 
 You can copy and paste any of the examples below directly into the Filter text box, and modify the search terms and other inputs to match your data.
 
-Text searches (character data type)
-Search for a single text term
-Use: FIND( ) function
+# Text searches (character data type)
 
-Description: The search function with the fewest restrictions. Not case-sensitive. Allows searching entire records in addition to searching an individual field or fields.
+## Mencari suatu kata/frase/kalimat
 
-Example
+**Use: FIND( ) function**<br>
+Description:<br>
+Fungsi SEARCH tidak case-sensitive. Bisa digunakan untuk seluruh baris atau suatu kolom tertentu saja.
+Contoh:<br>
+1. FIND("United Equipment")
+2. FIND("Equip")
+3. FIND("United Equipment", Vendor_Name)
+4. FIND("United Equipment", Vendor.Vendor_Name)
 
-Result
-
-FIND("United Equipment")
-Isolates all records that contain the name “United Equipment” anywhere in the record.
-
-FIND("Equip")
-Isolates all records that contain the string “Equip” anywhere in the record.
-
-FIND("United Equipment", Vendor_Name)
-Isolates all records that contain the name “United Equipment” in the Vendor_Name field.
-
-FIND("United Equipment", Vendor.Vendor_Name)
-Isolates all records that contain the name “United Equipment” in the Vendor_Name field in the related Vendor table.
-
-Search for blank text values
-Use: ISBLANK( ) function
-
+## Mencari nilai yang kosong
+**Use: ISBLANK( ) function**<br>
 Description: Allows you to search for blank values in a character field.
+Contoh:
+1. ISBLANK(First_Name)
 
-Example
 
-Result
-
-ISBLANK(First_Name)
-Isolates all records with a blank First_Name field.
-
-Search for multiple text terms
-Use: FINDMULTI( ) function
-
+## Search for multiple text terms
+**Use: FINDMULTI( ) function**
 Description: The same as FIND( ), but allows specifying multiple search terms.
 
-Example
+Contoh:
+1. FINDMULTI(RECORD, "United Equipment", "Muller Corp.")
+2. FINDMULTI(RECORD, "equip", "supp")
+3. FINDMULTI(Vendor_Name, "United Equipment", "Muller Corp.")
+4. FINDMULTI(Vendor.Vendor_Name, "United Equipment", "Muller Corp.")
 
-Result
-
-FINDMULTI(RECORD, "United Equipment", "Muller Corp.")
-Isolates all records that contain the name “United Equipment” or "Muller Corp." anywhere in the record.
-
-FINDMULTI(RECORD, "equip", "supp")
-Isolates all records that contain the strings “equip” or "supp" anywhere in the record.
-
-FINDMULTI(Vendor_Name, "United Equipment", "Muller Corp.")
-Isolates all records that contain the name “United Equipment” or "Muller Corp." in the Vendor_Name field.
-
-FINDMULTI(Vendor.Vendor_Name, "United Equipment", "Muller Corp.")
-Isolates all records that contain the name “United Equipment” or "Muller Corp." in the Vendor_Name field in the related Vendor table.
-
-Use: MATCH( ) function
-
+**Use: MATCH( ) function**
 Description: A versatile search function that allows you to search a field for multiple search terms simultaneously, or search multiple fields for the same search term. Also allows you to find matching values in two fields.
-
-Example
-
-Result
-
-MATCH(Vendor_City, "Phoenix", "Austin", "Los Angeles")
-Isolates all records in which the value in the Vendor_City field exactly matches, or begins with, “Phoenix”, “Austin”, or “Los Angeles”.
-
-NOT MATCH(Vendor_City, "Phoenix", "Austin", "Los Angeles")
-Isolates all records in which the value in the Vendor_City field does not exactly match, or begin with, “Phoenix”, “Austin”, or “Los Angeles”.
-
-MATCH(Product_Code, "A", "D", "F")
-Isolates all records that have product codes “A”, “D”, or “F”, or product codes beginning with “A”, “D”, or “F”, in the Product_Code field.
-
-MATCH(Product_Code, "A", "D", "F")
-Isolates all records that have one-character product codes “A”, “D”, or “F” in the Product_Code field.
-
+Contoh: 
+1. MATCH(Vendor_City, "Phoenix", "Austin", "Los Angeles")
+2. NOT MATCH(Vendor_City, "Phoenix", "Austin", "Los Angeles")
+3. MATCH(Product_Code, "A", "D", "F")
+4. MATCH(Product_Code, "A", "D", "F")
 The Exact Character Comparisons option must be on.
-
 Note
-
 MATCH( ) examples assume that the Exact Character Comparisons option is off, except where noted.
 
-Search for case-sensitive text terms
+**Search for case-sensitive text terms**
 Use: MATCH( ) function
-
 Description: A versatile search function that allows you to search a field for multiple search terms simultaneously, or search multiple fields for the same search term. Also allows you to find matching values in two fields.
 
-Example
+Contoh:
+1. MATCH(Last_Name, "SMITH")
+2. MATCH(Last_Name, "smith")
+3. MATCH(Last_Name, "Smith")
 
-Result
-
-MATCH(Last_Name, "SMITH")
-Isolates all records in which the value in the Last_Name field is "SMITH", all uppercase.
-MATCH(Last_Name, "smith")
-Isolates all records in which the value in the Last_Name field is "smith", all lowercase.
-MATCH(Last_Name, "Smith")
-Isolates all records in which the value in the Last_Name field is "Smith", proper case.
-Search for a text term in multiple fields
+**Search for a text term in multiple fields**
 Use: MATCH( ) function
-
 Description: A versatile search function that allows you to search a field for multiple search terms simultaneously, or search multiple fields for the same search term. Also allows you to find matching values in two fields.
-
-Example
-
-Result
-
-MATCH("Phoenix", Vendor_City, City, City_2)
+Contoh :
+1. MATCH("Phoenix", Vendor_City, City, City_2)
 Isolates all records in which at least one of the values in the Vendor_City, City, or City_2 fields exactly matches, or begins with, “Phoenix”.
 
-Search for matching text terms
+**Search for matching text terms**
 Use: MATCH( ) function
-
 Description: A versatile search function that allows you to search a field for multiple search terms simultaneously, or search multiple fields for the same search term. Also allows you to find matching values in two fields.
-
-Example
-
-Result
-
-MATCH(Vendor_Address, Employee_Address)
+Example:
+1. MATCH(Vendor_Address, Employee_Address)
 Isolates all records with identical vendor and employee addresses.
 
 You may need to use additional functions to standardize the format of vendor and employee addresses.
 
-Search for one or more occurrences of a specific character or substring
+**Search for one or more occurrences of a specific character or substring**
 Use: OCCURS( ) function
-
 Description: Allows you to search for one or multiple occurrences of a substring in a character field.
 
-Example
-
-Result
-
 OCCURS(Invoice_Number, "-") > 1
-Isolates all records in which the invoice number contains 2 or more hyphens.
-
-OCCURS(Full_Name, ALLTRIM(Last_Name))=1
-Isolates all records in which the value in the Last_Name field appears in the Full_Name field.
-
-Including the ALLTRIM( ) function in the expression removes any leading or trailing spaces from the Last_Name field, ensuring that only text values are compared.
-
-OCCURS(Vendor_Name, "UNITED EQUIPMENT")
-> 0
+OCCURS(Full_Name, ALLTRIM(Last_Name))=1 Isolates all records in which the value in the Last_Name field appears in the Full_Name field. Including the ALLTRIM( ) function in the expression removes any leading or trailing spaces from the Last_Name field, ensuring that only text values are compared.
+OCCURS(Vendor_Name, "UNITED EQUIPMENT")> 0
 Isolates all records that contain the name “UNITED EQUIPMENT”, in uppercase, in the Vendor_Name field.
 
 Unlike the FIND( ) function, the OCCURS( ) function is case sensitive.
 
-Search for a substring starting at a specific character position
+### Search for a substring starting at a specific character position
 Use: AT( ) function
 
 Description: Allows you to search for a substring, or a subsequent occurrence of the substring, in a character field, and specify the starting byte position of the target substring.
@@ -969,94 +872,53 @@ Result
 AT(2, "-", Invoice_Number) > 10
 Isolates all records in which the invoice number contains 2 or more hyphens, and the second hyphen occurs after the tenth character in the string.
 
-Search for text in a range
+### Search for text in a range
 Use: BETWEEN( ) function
-
 Description: Allows you to search for text values that fall within a range.
-
 Example
-
 Result
-
 BETWEEN(Last_Name, "C", "K")
 Isolates all records in which the value in the Last_Name field begins with one of the letters from “C” to “K”, inclusive.
-
 The Exact Character Comparisons option must be off.
 
-Search for nearly identical text values (fuzzy duplicates)
+### Search for nearly identical text values (fuzzy duplicates)
 Use: ISFUZZYDUP( ) function
-
 Description: Allows you to search for nearly identical values (fuzzy duplicates), as well as identical values. Not case-sensitive.
-
 Use: LEVDIST( ) function
-
 Description: Similar to ISFUZZYDUP( ), but case-sensitive by default.
-
 Example
-
 Result
-
 ISFUZZYDUP(Last_Name, "Braun", 2)
 Isolates all records with the name “Braun”, or fuzzy duplicates of the name “Braun”, in the Last_Name field.
-
 The Levenshtein distance (degree of fuzziness), set to 2 in this example, can be increased or decreased.
-
 LEVDIST(TRIM(Last_Name), "Braun") < 3
 Isolates all records with the name “Braun”, or fuzzy duplicates of the name “Braun”, in the Last_Name field.
-
 The Levenshtein distance (degree of fuzziness), set to < 3 in this example, can be increased or decreased.
-
 Including the TRIM( ) function in the expression removes any trailing spaces from the last name field, ensuring that only text values are compared.
 
-Search for a basic pattern
+### Search for a basic pattern
 Use: MAP( ) function
-
 Description: Allows you to search using wildcard characters, literal characters, or a mix of both.
+Contoh: 
+1. MAP(Invoice_Number, "XX99999")
+2. MAP(Invoice_Number, "AB12345")
+3. MAP(Invoice_Number, "AB99999")
+4. NOT MAP(SSN, "999-99-9999")
 
-Example
-
-Result
-
-MAP(Invoice_Number, "XX99999")
-Isolates all records with invoice numbers that consist of, or that start with, two letters followed by five numbers.
-
-MAP(Invoice_Number, "AB12345")
-Isolates all records with invoice numbers that are exactly “AB12345”, or that start with “AB12345”.
-
-MAP(Invoice_Number, "AB99999")
-Isolates all records with invoice numbers that consist of, or that start with, “AB” followed by five numbers.
-
-NOT MAP(SSN, "999-99-9999")
-Isolates all records that do not match the standard format of social security numbers in the SSN field.
-
-Search for a more complicated pattern
+### Search for a more complicated pattern
 Use: REGEXFIND( ) function
-
 Description: The most powerful and flexible search function. Allows you to search using regular expressions that combine literal characters and metacharacters. Can be more complicated to use than other search functions.
+Contoh:
+1. REGEXFIND(Vendor_City, "Phoenix|Austin|Los Angeles")
+2. REGEXFIND(Product_Code, "\b\d{3}-[a-zA-Z]{6}\b")
+3. REGEXFIND(Product_Code, "\b\d{3,}-[a-zA-Z]{6}")
 
-Example
-
-Result
-
-REGEXFIND(Vendor_City, "Phoenix|Austin|Los Angeles")
-Isolates all records in which the value in the Vendor_City field contains “Phoenix”, “Austin”, or “Los Angeles”.
-
-REGEXFIND(Product_Code, "\b\d{3}-[a-zA-Z]{6}\b")
-Isolates all records with a product code that starts with 3 numbers, followed by a hyphen and 6 letters.
-
-REGEXFIND(Product_Code, "\b\d{3,}-[a-zA-Z]{6}")
-Isolates all records with a product code that starts with 3 or more numbers, followed by a hyphen and 6 or more letters.
-
-Numeric searches
-Search for a number
+## Numeric searches
+### Search for a number
 Use: MATCH( ) function
-
 Description: A versatile search function that allows you to search a field for multiple search terms simultaneously, or search multiple fields for the same search term. Also allows you to find matching values in two fields.
-
 Example
-
 Result
-
 MATCH(Invoice_Amount,154.00)
 Isolates all records with an invoice amount of $154.00.
 MATCH(Invoice_Amount,154.00, 522.00)
@@ -1064,42 +926,31 @@ Isolates all records with an invoice amount of $154.00 or $522.00.
 NOT MATCH(Inventory_Value_at_Cost, Cost_x_Quantity)
 Isolates all records with different amounts in the Inventory_Value_at_Cost field and the computed Cost_x_Quantity field.
 
-Search for numbers in a range
+
+### Search for numbers in a range
 Use: BETWEEN( ) function
-
 Description: Allows you to search for numeric values that fall within a range.
-
 Example
-
 Result
-
 BETWEEN(Invoice_Amount, 1000, 5000)
 Isolates all records with an invoice amount from $1000 to $5000, inclusive.
 
-Search for a number throughout an entire table
+
+### Search for a number throughout an entire table
 Use: FIND( ) function
-
 Description: Allows searching entire records in addition to searching an individual field or fields.
-
 Use: FINDMULTI( ) function
-
 Description: The same as FIND( ), but allows specifying multiple search terms.
-
 Note
-
 Using the FIND( ) or FINDMULTI( ) functions to search for a numeric value can be tricky. The functions search the exact characters in the source data file (.fil), which can be presented differently in the table view.
-
 If search results seem inconsistent to you, examine the source data in the Table Layout dialog box.
-
 Example
-
 Result
-
 FIND("154.00")
 Isolates all records that contain the exact characters 154.00 anywhere in the record in the source data file.
-
 Datetime searches
-Search for a datetime value
+
+### Search for a datetime value
 Use: MATCH( ) function
 
 Description: A versatile search function that allows you to search a field for multiple search terms simultaneously, or search multiple fields for the same search term. Also allows you to find matching values in two fields.
@@ -1114,7 +965,8 @@ Isolates all records with an invoice date of 31 Jul 2017.
 MATCH(Invoice_Date, `20170731`, `20170831`, `20170930`)
 Isolates all records with an invoice dated the last day of the month in each month of the third quarter.
 
-Search for blank or invalid date values
+
+### Search for blank or invalid date values
 Use: VERIFY( ) function
 
 Description: Allows you to search for blank or invalid values in a date field.
@@ -1126,7 +978,8 @@ Result
 NOT VERIFY(Invoice_Date)
 Isolates all records with a blank or invalid date in the Invoice_Date field.
 
-Search for datetime values in a range
+
+### Search for datetime values in a range
 Use: BETWEEN( ) function
 
 Description: Allows you to search for datetime values that fall within a range.
@@ -1164,150 +1017,3 @@ FINDMULTI(RECORD, "31/07/2017", "31/08/2017")
 Isolates all records that contain the exact characters 31/07/2017 or 31/08/2017 anywhere in the record in the source data file.
 
 The normal restriction regarding datetime format (YYYYMMDD, YYMMDD, hhmmss, hhmm) does not apply when using FIND( ) or FINDMULTI( ) to search for a datetime value.
-
-A comparison of Analytics search functions
-The tables below provide a high-level comparison of Analytics search functions. As you construct search expressions in Analytics it can be useful to know how the specific rules that govern each function may differ.
-
-Data types when searching
-ClosedShow me more
-Search locations (field, fields, record)
-OpenShow me more
-Supported search locations	Function
-Single field
-
-BETWEEN( )
-
-ISFUZZYDUP( )
-
-LEVDIST( )
-
-One or more fields
-
-AT( )
-
-MAP( )
-
-MATCH( )
-
-OCCURS( )
-
-REGEXFIND( )
-
-One or more fields
-
-Record
-
-FIND( )
-
-FINDMULTI( )
-
-Leading spaces searchable
-OpenShow me more
-Leading spaces searchable	Function
-Yes
-
-Leading spaces in data can optionally be matched in search string
-
-AT( )
-
-BETWEEN( )
-
-FIND( )
-
-FINDMULTI( )
-
-OCCURS( )
-
-Yes
-
-Leading spaces in data must be exactly matched in search string
-
-MAP( )
-
-MATCH( )
-
-Yes
-
-Spaces in data or search string treated like a character
-
-ISFUZZYDUP( )
-
-LEVDIST( )
-
-REGEXFIND( )
-
-Case-sensitivity
-ClosedShow me more
-Partial matching
-OpenShow me more
-Partial matching supported	Function
-Yes
-
-Search string can appear anywhere in the field
-
-AT( )
-
-FIND( )
-
-FINDMULTI( )
-
-OCCURS( )
-
-REGEXFIND( )
-
-Yes
-
-Search string must appear at the start of the field, character data type only
-
-BETWEEN( )
-
-MATCH( )
-
-Yes
-
-Search string must be same length as data value, or shorter
-
-MAP( )
-
-Yes
-
-ISFUZZYDUP( )
-
-LEVDIST( )
-
-Multiple search terms
-OpenShow me more
-Multiple search terms supported	Function
-Yes
-
-FINDMULTI( )
-
-MATCH( )
-
-REGEXFIND( )
-
-No
-
-AT( )
-
-BETWEEN( )
-
-FIND( )
-
-ISFUZZYDUP( )
-
-LEVDIST( )
-
-MAP( )
-
-OCCURS( )
-
-Affected by Exact Character Comparisons option (SET EXACT ON/OFF)
-ClosedShow me more
-On this page
-Guidelines for searching or filtering using functions
-Types of searches
-Text searches (character data type)
-Numeric searches
-Datetime searches
-A comparison of Analytics search functions
